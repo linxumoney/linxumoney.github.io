@@ -1,0 +1,271 @@
+[
+  {
+    "name": "ai-navigator-2026",
+    "description": "生财有术 AI 航海家大会 2026 知识库 | 11位嘉宾精华拆解（道法术器）+ 逐字稿 | OpenClaw Skill",
+    "url": "https://github.com/linxumoney/ai-navigator-2026",
+    "stars": 5,
+    "license": null,
+    "branch": "master",
+    "skills": [
+      "SKILL.md"
+    ],
+    "readme": "# 生财有术 AI 航海家大会 2026 · 知识库\n\n> 2026年3月28-29日 · 北京 · 1600人到场\n> 11位嘉宾精华拆解 + 完整逐字稿 + 夜话问答实录\n\n这是一个 [OpenClaw](https://github.com/openclaw/openclaw) Skill，让 AI 助手能够检索和引用本次大会的核心内容。\n\n---\n\n## 包含内容\n\n| 类型 | 数量 | 说明 |\n|------|------|------|\n| 精华拆解 | 11篇 | 道法术器框架，提炼核心方法论 |\n| 逐字稿 | 10篇 | 演讲原文清洗版 |\n| 夜话问答 | 2篇 | 小范围深度问答实录 |\n| 总览综合 | 1篇 | Day1 道法术器综合版 |\n\n---\n\n## 嘉宾阵容\n\n**Day 1（2026.3.28）**\n- **王煜全** — 全球科技创新产业专家 · 大行为模型 · 服务平权\n- **Zero** — 生财超级术作者 · AI视频爆款方法论 · 仿拆量三步法\n- **波波** — GEO先行者 · AI时代搜索流量 · 千亿机会\n- **钱塘江鲤** — OpenClaw创始人 · 7×24小时数字员工\n- **郭东超** — 0代码到2万付费用户 · AI产品推广全路径\n- **老华** — 米课创始人 · 马场火锅 · 创业投资九条支线\n\n**Day 2（2026.3.29）**\n- **刘小排** — AI编程六级阶梯 · 从帮你做到替你做\n- **易亚婷** — 活人感IP · 当80分内容价值趋近于0\n- **王大仙** — 飞书Agent数字员工 · 从Skill到MCP\n- **刘智行** — 国企员工副业月入10万 · 500个公众号矩阵\n- **可拉** — 不会写代码如何用Cursor重塑跨境电商\n\n---\n\n## 核心金句\n\n> 「前三年是大语言模型的时代，未来三年是大行为模型的时代。」——王煜全\n\n> 「仿就是最高效的路，拆就是最快的捷径。」——Zero\n\n> 「谁提供优质信息，谁就能被 AI 分发。」——波波\n\n> 「方案不值钱，结果才有价值。」——钱塘江鲤\n\n> 「宁愿在价格上犯错，也不要在标的上犯错。」——老华\n\n> 「选择是你唯一不能外包的东西。」——刘小排\n\n> 「当80分的内容人人都能生产，80分就等于0分。」——易亚婷\n\n> 「数据通了，一切皆有可能。」——可拉\n\n---\n\n## 使用方式（OpenClaw Skill）\n\n将此 Skill 目录放入 `~/.openclaw/workspace/skills/ai-navigator-2026/`，触发词：\n\n- `AI航海家大会`\n- `大会知识库`\n- `查询嘉宾观点`\n- `/ai-navigator`\n\nAI 助手将自动检索 `references/` 目录下的内容，引用对应嘉宾的观点和方法论。\n\n---\n\n## 关注我\n\n如果这个知识库对你有帮助，欢迎：\n\n⭐ **Star 这个仓库**，支持持续更新\n\n🐦 **关注 X**：[@linxumoney](https://x.com/linxumoney)\n\n📺 **订阅 YouTube**：[林序聊AI](https://www.youtube.com/@LinXuMoney)\n\n---\n\n*本知识库由 [林序聊AI](https://x.com/linxumoney) 整理，基于生财有术 AI 航海家大会 2026 现场内容。*\n",
+    "updated": "2026-03-30T16:13:46Z"
+  },
+  {
+    "name": "ai-seo",
+    "description": "🤖 AI-SEO — 让网站被 ChatGPT/Perplexity/Claude 引用的优化工具 | GEO optimization for AI search engines",
+    "url": "https://github.com/linxumoney/ai-seo",
+    "stars": 3,
+    "license": "NOASSERTION",
+    "branch": "main",
+    "skills": [
+      "SKILL.md"
+    ],
+    "readme": "# 🤖 AI-SEO：让你的网站被 AI 搜索引用\n\n> 传统 SEO 优化 Google 排名。AI-SEO 优化 ChatGPT / Perplexity / Claude 的引用。\n\nAI 搜索流量正在爆炸式增长，转化率是普通搜索的 **4.4倍**。但只有 **23%** 的站长在做这件事。\n\n---\n\n## 📊 为什么现在必须做 AI-SEO\n\n| 数据 | 来源 |\n|------|------|\n| AI 引用流量增长 +527%（2025年） | SparkToro |\n| AI 流量转化率是普通搜索 4.4倍 | 行业数据 |\n| 品牌提及对 AI 引用的权重是反链 3倍 | Ahrefs 2025 |\n| 2028年 Google 搜索流量预计下降 50% | Gartner |\n| 目前只有 23% 的营销人员在做 GEO | 行业调研 |\n\n---\n\n## ✨ 功能\n\n| 命令 | 功能 |\n|------|------|\n| `/ai-seo audit <url>` | 完整 AI-SEO 审计（评分 0-100 + 行动清单） |\n| `/ai-seo quick <url>` | 60秒快速快照 |\n| `/ai-seo citability <url>` | AI 可引用性评分 |\n| `/ai-seo crawlers <url>` | 检查 AI 爬虫是否能访问你的网站 |\n| `/ai-seo llmstxt <url>` | 分析或生成 llms.txt |\n| `/ai-seo brands <url>` | 品牌提及扫描（Reddit/YouTube/Wikipedia） |\n| `/ai-seo schema <url>` | 结构化数据检测与生成 |\n| `/ai-seo content <url>` | 内容质量 + E-E-A-T 评估 |\n| `/ai-seo technical <url>` | 技术 SEO 审计 |\n| `/ai-seo report <url>` | 生成完整 Markdown 报告 |\n\n---\n\n## 🚀 安装\n\n```bash\n# 克隆到 Claude Code skills 目录\ngit clone https://github.com/linxumoney/ai-seo.git ~/.claude/skills/ai-seo\n\n# 在 Claude Code 中使用\n/ai-seo audit https://yourwebsite.com\n```\n\n---\n\n## 📐 评分体系\n\n| 维度 | 权重 |\n|------|------|\n| AI 可引用性 & 可见性 | 25% |\n| 品牌权威信号 | 20% |\n| 内容质量 & E-E-A-T | 20% |\n| 技术基础 | 15% |\n| 结构化数据 | 10% |\n| 平台优化（ChatGPT/Perplexity/Google AIO） | 10% |\n\n---\n\n## 🧠 核心概念：什么是 AI 可引用性\n\nAI 搜索在回答问题时，会从网页中提取「可引用段落」。研究发现（Princeton/Georgia Tech，2024），符合以下特征的段落被引用率高出 30-115%：\n\n- ✅ 首句直接给出答案（答案前置）\n- ✅ 134-167字，自成一体\n- ✅ 包含具体数据和命名实体\n- ✅ 无需上下文即可理解\n\n---\n\n## 📁 文件结构\n\n```\nai-seo/\n├── SKILL.md                      ← Claude Code skill 主文件\n└── references/\n    ├── citability.md             ← AI 可引用性详细评分标准\n    ├── crawlers.md               ← 14+ AI 爬虫列表及 robots.txt 配置\n    ├── platform-rules.md         ← ChatGPT/Perplexity/Google AIO 优化规则\n    └── schema-templates.md       ← 6种网站类型 JSON-LD 模板\n```\n\n---\n\n## 📡 关注我\n\n这是「**[林序聊AI · 开源计划](https://github.com/linxumoney)**」的开源项目之一。我会持续开源更多 AI 内容创作工具。\n\n| 平台 | 链接 |\n|------|------|\n| 🐦 X (Twitter) | [@linxumoney](https://x.com/linxumoney) |\n| 📺 YouTube | [@LinXuMoney](https://www.youtube.com/@LinXuMoney) |\n| 💻 GitHub | [github.com/linxumoney](https://github.com/linxumoney) |\n\n觉得有用的话，**点个 Star ⭐ 支持一下**，让更多人发现这个工具。\n\n---\n\n## 📄 License\n\nMIT License — 自由使用、修改、分发。\n",
+    "updated": "2026-03-27T00:26:18Z"
+  },
+  {
+    "name": "biz-fiction",
+    "description": "📖 商业叙事写作引擎 — 用写小说的方式写商业故事 | Business narrative fiction skill for Claude Code",
+    "url": "https://github.com/linxumoney/biz-fiction",
+    "stars": 4,
+    "license": "NOASSERTION",
+    "branch": "main",
+    "skills": [
+      "SKILL.md"
+    ],
+    "readme": "# 📖 Biz Fiction — 商业叙事写作引擎\n\n> 用写小说的方式写商业故事。让读者忘记自己在读「内容」，以为自己在看剧。\n\n给我一个真实商业人物/事件，我输出 3000-5000 字的沉浸式叙事长文。\n\n---\n\n## ✨ 触发示例\n\n```\n/biz-fiction 中本聪与比特币诞生\n/biz-fiction 张一鸣离开字节的那个下午\n/biz-fiction 雷军第一次创业失败\n/biz-fiction 马斯克收购 Twitter 的那个周末\n```\n\n---\n\n## 🎬 核心写作法则\n\n这套 Skill 提炼自真实的商业非虚构叙事，核心是7条写作法则：\n\n### 1. 镜头三层切换\n```\n宏观（城市/天气）→ 中景（房间/人物）→ 微观（杯底冰块/屏幕反光）\n```\n微观镜头承载情绪，不直说感受，让细节说话。\n\n### 2. 情绪不说，细节说\n- ❌ 「他感到不安」\n- ✅ 「他读了三遍。字面上每一个字都很正常，但他的心跳还是快了半拍。」\n\n### 3. 对话永远有两层意思\n表面意思 + 真实意思错位。读者在结局处猛然回想：「原来那句话早就是预兆。」\n\n### 4. 商业信息一句话带过\n不分析，不展开。事实 → 外部反应 → 主角判断，三句话搞定。\n\n### 5. 人物用轨迹建立\n不写成就，写动词轨迹。出生地越具体越有力，最后制造落差感。\n\n### 6. 标准六章结构\n引子 → 犹豫 → 决定 → 过程 → 转折 → 夜/余震\n\n### 7. 结尾不给结论\n最后一个具体画面，把判断权留给读者。\n\n---\n\n## 📁 文件结构\n\n```\nbiz-fiction/\n├── SKILL.md                      ← Claude Code skill 主文件\n└── references/\n    ├── style-rules.md            ← 完整写作法则（含大量正反例）\n    ├── scene-templates.md        ← 开场/转折/结尾场景模板\n    └── character-sheet.md        ← 人物建立方法\n```\n\n---\n\n## 🚀 安装\n\n```bash\ngit clone https://github.com/linxumoney/biz-fiction.git ~/.claude/skills/biz-fiction\n```\n\n然后在 Claude Code 中：\n```\n/biz-fiction 中本聪与比特币诞生\n```\n\n---\n\n## 📡 关注我\n\n这是「**[林序聊AI · 开源计划](https://github.com/linxumoney)**」的开源项目之一。\n\n| 平台 | 链接 |\n|------|------|\n| 🐦 X (Twitter) | [@linxumoney](https://x.com/linxumoney) |\n| 📺 YouTube | [@LinXuMoney](https://www.youtube.com/@LinXuMoney) |\n| 💻 GitHub | [github.com/linxumoney](https://github.com/linxumoney) |\n\n觉得有用的话，**点个 Star ⭐ 支持一下**。\n\n---\n\n## 📄 License\n\nMIT License with Attribution — 可自由使用修改，须注明原作者：Lin Xu @linxumoney\n\n---\n\n## 📝 输出示例\n\n| 示例 | 文件 |\n|------|------|\n| 中本聪 · 消失 | [examples/nakamoto.md](examples/nakamoto.md) |\n| 埃隆·马斯克 · 那条推文 | [examples/musk.md](examples/musk.md) |\n",
+    "updated": "2026-03-27T01:07:50Z"
+  },
+  {
+    "name": "career-fit-coach",
+    "description": "开源 AI 岗位匹配与简历优化 Skill：分析 JD、建立证据矩阵、判断是否值得申请。",
+    "url": "https://github.com/linxumoney/career-fit-coach",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/career-fit-coach/SKILL.md"
+    ],
+    "readme": "# Career Fit Coach：AI 岗位匹配、JD 分析与简历优化 Skill\n\n一份职位描述看起来什么都要，很多人要么直接放弃，要么让 AI 把简历改到不像自己。真正需要的是一份诚实的证据匹配：哪些要求你已经证明，哪些可以迁移，哪些确实是硬缺口。\n\n`career-fit-coach` 是一个面向求职者的开源 AI 岗位匹配、JD 分析和简历优化 Agent Skill。它用职位要求和你的真实经历建立证据矩阵，再给出直接申请、补材料、暂缓或放弃的明确建议。兼容 Codex、Claude Code、Cursor、OpenCode 等支持 `SKILL.md` 的工具。\n\n## 它能做什么\n\n- 从职位描述中区分硬门槛、核心能力和偏好项\n- 用简历、项目和成果建立证据矩阵\n- 判断“直接投 / 补材料后投 / 暂缓 / 不投”\n- 改写简历要点，但绝不编造经历和数字\n- 生成面试中最可能被追问的证据缺口\n\n## 使用示例\n\n```text\n用 $career-fit-coach 分析这个岗位是否值得投。\n下面是 JD 和我的简历，请先给判断，再告诉我简历最该改哪三处。\n```\n\n## 安装\n\n```bash\ncp -R skills/career-fit-coach ~/.codex/skills/\n```\n\n安装后调用 `$career-fit-coach`。\n\n## 与普通简历润色的区别\n\n它不会为了提高“匹配度”偷偷增加你没做过的技术、管理人数、收入贡献或工作年限。每一条建议都要能回到真实证据。\n\n## 适用场景\n\n- 分析职位描述，判断这个岗位值不值得投\n- 对比 JD 和简历，找出硬门槛、核心能力与证据缺口\n- 针对目标岗位优化简历和项目经历\n- 转行、升职或跨行业申请的可迁移能力分析\n- 准备面试中最可能被追问的经历和 STAR 故事\n\n## 常见问题\n\n### 它能给岗位匹配度打分吗？\n\n它更强调证据而不是一个看似精确的百分比。输出会区分直接证据、迁移证据、弱证据和缺失证据，并给出申请结论。\n\n### 会帮我补充没有做过的经历吗？\n\n不会。职位、技术、学历、年限、团队规模和业务结果都必须来自用户提供的真实材料。\n\n### 只有 JD，没有完整简历能用吗？\n\n可以先拆解岗位要求；补充经历后再生成完整证据矩阵和简历修改建议。\n\n## 方法参考\n\n本项目独立实现。岗位评估与求职流程的问题域参考了 [santifer/career-ops](https://github.com/santifer/career-ops)，该项目采用 MIT License。本项目没有复用其命令路由、文件结构、模板或实现代码。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:27:57Z"
+  },
+  {
+    "name": "cloud-incident-coach",
+    "description": "开源云安全事件响应 Skill：证据保全、事件时间线、影响范围、可逆遏制、恢复与复盘。",
+    "url": "https://github.com/linxumoney/cloud-incident-coach",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/cloud-incident-coach/SKILL.md"
+    ],
+    "readme": "# Cloud Incident Coach：云安全事件响应与取证处置 Skill\n\n云安全事件里最危险的动作，往往是慌乱中直接删资源、轮换一切、关闭日志，结果既没控制影响，也失去了追查依据。\n\n`cloud-incident-coach` 是一个只面向防御场景的开源云安全事件响应与取证 Agent Skill。它帮助响应人员保全日志和快照、建立事件时间线、划定身份与数据影响范围、选择可逆遏制动作，并规划恢复和复盘。兼容 Codex、Claude Code、Cursor 和 OpenCode 等支持 `SKILL.md` 的工具。\n\n## 它能协助\n\n- 建立事件指挥结构和严重度\n- 生成证据保全清单与时间线\n- 区分身份、网络、数据和工作负载影响\n- 设计分阶段、可回滚的遏制方案\n- 整理内部沟通、监管与客户通知所需事实\n- 形成复盘中的根因、促成因素和修复负责人\n\n## 使用示例\n\n```text\n用 $cloud-incident-coach 帮我梳理这次云账号异常登录事件。\n只做防御响应，先列需要保全的证据，再给可逆的遏制动作。\n```\n\n## 安装\n\n```bash\ncp -R skills/cloud-incident-coach ~/.codex/skills/\n```\n\n## 适用场景\n\n- AWS、Azure、GCP 等云账号异常登录和凭据泄露\n- 云资源配置误改、公开暴露和数据访问异常\n- 容器、虚拟机、函数和工作负载安全事件\n- 事件证据保全、时间线、影响范围和遏制方案\n- 安全事件沟通、服务恢复和事后复盘\n\n## 常见问题\n\n### 它会执行隔离或删除资源吗？\n\n不会自动执行破坏性操作。输出会说明动作目的、业务风险、回滚方法和验证信号，高风险操作需要人工审批。\n\n### 为什么先保全证据？\n\n直接删除资源或关闭服务可能破坏日志、内存、磁盘和配置证据，也可能扩大业务影响。Skill 会优先设计可逆的处置顺序。\n\n### 可以用于渗透测试吗？\n\n它只覆盖防御、取证、遏制、恢复和复盘，不提供提权、持久化、横向移动或规避检测指导。\n\n## 方法参考\n\n本项目独立实现。云事件响应问题域参考了 [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) 的防御性公开 Skill，该项目采用 Apache-2.0 License。本项目未复制其脚本、参考文件、模板、自动化代理或文字，也不包含攻击性操作流程。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:28:06Z"
+  },
+  {
+    "name": "cn-ads-skills",
+    "description": "🇨🇳 中国市场广告投放技能库 for AI Agents | 巨量/腾讯广告/小红书/私域漏斗 | 本土化改编自 advertising-skills",
+    "url": "https://github.com/linxumoney/cn-ads-skills",
+    "stars": 18,
+    "license": null,
+    "branch": "main",
+    "skills": [
+      "skills/copy-chief/awareness-mapper/SKILL.md",
+      "skills/copy-chief/headline-matrix/SKILL.md",
+      "skills/copy-chief/mechanism-builder/SKILL.md",
+      "skills/copy-chief/objection-crusher/SKILL.md",
+      "skills/foundations/avatar-extraction/SKILL.md",
+      "skills/foundations/offer-extraction/SKILL.md",
+      "skills/foundations/voice-of-customer/SKILL.md",
+      "skills/operator-os/ad-angle-multiplier/SKILL.md",
+      "skills/operator-os/conversion-path-builder/SKILL.md",
+      "skills/operator-os/performance-diagnosis/SKILL.md",
+      "skills/operator-os/scroll-stopping-creative/SKILL.md",
+      "skills/orchestrators/full-funnel-orchestrator/SKILL.md",
+      "skills/qa/claim-checker/SKILL.md",
+      "skills/qa/generic-language-killer/SKILL.md"
+    ],
+    "readme": "# 中文广告投放技能库 · CN Ads Skills\n\n**专为中国市场设计的 AI Agent 广告投放与文案系统。**\n\n---\n\n## 之前 vs 之后\n\n**之前：**\n\"精准触达目标用户，助力品牌增长\"\n\n**之后：**\n\"你不是不会投广告。\n\n你只是从来没有人告诉你，\n为什么你的广告会在前三秒被划走。\"\n\n同一个产品。\n完全不同的结局。\n\n---\n\n大多数 AI 生成的广告文案长得一个样。\n\n官方腔。\n正确但无聊。\n没人记住。\n\n这个仓库解决这个问题。\n\n它编码了以下内容的底层思维：\n\n- 高转化的信息流广告\n- 高成单的私域漏斗\n- 精准的产品定位\n- 让人看完就想下单的直效文案\n\n不是提示词。\n\n是**技能**。\n\n---\n\n## 这是什么\n\n一套为 AI Agent 设计的广告投放技能库，专注于：\n\n- 付费流量获取（巨量引擎 / 腾讯广告 / 朋友圈 / 小红书）\n- 中式直效文案框架（痛点撬动 / 社会认同 / 对比机制）\n- 产品卖点提炼与定位\n- 私域漏斗设计（企微 / 社群 / 直播）\n- 创意测试与数据诊断\n\n每个技能：\n\n- 聚焦一个问题\n- 有明确观点\n- 可单独使用，也可串联\n- 针对中国用户的决策心理设计\n\n---\n\n## 为什么不一样\n\n大多数 AI 营销工具优化的是**输出速度**。\n\n这个库优化的是**思维质量**。\n\n具体来说：\n\n- 不猜受众是谁 — 精确定义她是谁\n- 不先写文案 — 先搞清楚她在哪个认知阶段\n- 不追求听起来厉害 — 追求让她想付钱\n- 不只是创作 — 还要筛选、过滤、诊断\n\n它融合了两种通常分开的能力：\n\n### 文案脑\n\n- 意识层级（改编自 Eugene Schwartz，本土化）\n- 市场认知成熟度\n- 独特机制与大创意\n- 标题、开头、证据、异议处理、收尾\n\n### 操盘脑\n\n- 广告创意与角度\n- 漏斗路径与转化逻辑\n- 筛选与资格确认\n- 测试与效果诊断\n\n大多数系统只有一个。\n\n这个两个都有。\n\n---\n\n## 运作方式\n\n每个技能放在独立文件夹：\n\n```\nskills/<分类>/<技能名>/SKILL.md\n```\n\n每个技能定义：\n\n- 何时使用\n- 需要哪些输入\n- 如何思考\n- 输出什么\n- 不该做什么\n\n它们设计为可串联使用。\n\n---\n\n## 示例流程\n\n构建一个私域获客活动：\n\n```\navatar-extraction（用户画像提取）\n→ offer-extraction（产品价值提炼）\n→ awareness-mapper（意识阶段定位）\n→ mechanism-builder（独特机制构建）\n→ ad-angle-multiplier（广告角度扩展）\n→ scroll-stopping-creative（停划创意）\n→ conversion-path-builder（转化路径设计）\n→ objection-crusher（异议处理）\n→ generic-language-killer（官方腔清除）\n```\n\n最终产出：\n\n- 清晰的产品定位\n- 多个测试角度\n- 高转化广告创意\n- 完整的私域漏斗\n- 有说服力的文案\n\n---\n\n## 示例输出\n\n见：`/examples/private-domain-campaign.md`\n\n---\n\n## 核心技能分类\n\n### 基础层（Foundations）\n\n先搞清楚真相，再动笔。\n\n- `avatar-extraction` — 用户画像提取\n- `voice-of-customer` — 用户原话挖掘\n- `offer-extraction` — 产品价值提炼\n\n---\n\n### 文案脑（Copy Chief）\n\n中式直效文案框架。\n\n- `awareness-mapper` — 意识阶段定位（本土化 Schwartz）\n- `mechanism-builder` — 独特机制构建\n- `headline-matrix` — 标题矩阵\n- `objection-crusher` — 异议处理\n\n---\n\n### 操盘脑（Operator OS）\n\n执行与规模化。\n\n- `scroll-stopping-creative` — 停划创意\n- `ad-angle-multiplier` — 广告角度扩展\n- `conversion-path-builder` — 转化路径设计\n- `performance-diagnosis` — 效果诊断\n\n---\n\n### 质检层（QA）\n\n让输出真正有效。\n\n- `generic-language-killer` — 官方腔清除\n- `claim-checker` — 卖点可信度核查\n\n---\n\n### 编排器（Orchestrators）\n\n预设的多技能组合流程。\n\n- `full-funnel-orchestrator` — 完整漏斗活动编排\n\n---\n\n## 适合谁用\n\n- 跑巨量/腾讯广告的投手，想要更好的创意和文案\n- 自己投广告的创始人，不想靠直觉试错\n- 想保持团队输出一致性的代理商\n- 在构建 AI 驱动营销系统的操盘手\n\n---\n\n## 不是什么\n\n- 不是通用内容营销模板\n- 不是\"帮我写10条小红书\"的提示词\n- 不是表面的营销框架\n\n这是为以下场景设计的：\n\n- 直接效果广告\n- 付费流量\n- 真实预算\n- 真实后果\n\n---\n\n## 安装\n\n兼容任何使用 Agent Skills 模式的 Agent。\n\n安装到：\n\n```\n.agents/skills/\n```\n\n或 OpenClaw 工作区的：\n\n```\nskills/\n```\n\n兼容：\n\n- OpenClaw\n- Claude Code\n- Cursor / Windsurf\n- 自定义 Agent 框架\n\n---\n\n## 哲学\n\n未来不是更好的提示词。\n\n而是**更好的思维方式被编码进去**。\n\n---\n\n## 路线图\n\n- 扩展文案库（直播话术 / 私信话术 / 朋友圈文案）\n- 平台专属技能层（巨量 / 小红书 / 视频号）\n- 高级漏斗编排\n- 创意测试系统\n\n---\n\n## 许可证\n\nMIT\n\n---\n\n## 作者\n\n林序聊AI  \n专注 AI 驱动的增长系统与中国市场广告运营  \n\n- X：[@linxumoney](https://x.com/linxumoney)\n- YouTube：[@LinXuMoney](https://www.youtube.com/@LinXuMoney)\n- GitHub：[linxumoney](https://github.com/linxumoney)\n\n---\n\n如果你认真用这个库，它不只会改善你的广告。\n\n它会改变你思考广告的方式。\n\n---\n\n## 关注我\n\n如果这个仓库对你有用：\n\n⭐ **Star 这个仓库** — 帮助更多人发现它\n\n🐦 **关注 X** → [@linxumoney](https://x.com/linxumoney)  \n每天分享 AI + 增长实战经验\n\n📺 **订阅 YouTube** → [林序聊AI](https://www.youtube.com/@LinXuMoney)  \n视频讲解 AI 工具如何用在真实业务中\n",
+    "updated": "2026-03-29T12:20:41Z"
+  },
+  {
+    "name": "dating-chat-coach",
+    "description": "用自己的语言习惯，写出自然、尊重、能直接发送的约会聊天回复",
+    "url": "https://github.com/linxumoney/dating-chat-coach",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/dating-chat-coach/SKILL.md"
+    ],
+    "readme": "# Dating Chat Coach：不会聊天，也能把话说对\n\n> 你不是没有话说。你只是经常在最关键的一句话上，说成了“建议”、 “审问”或者“解释自己”。\n\nDating Chat Coach 是一个面向约会和相亲场景的开源 AI Skill：\n\n- 聊天中，结合你的语言习惯和人设，生成自然、能直接发送的回复\n- 根据双方的聊天上下文，判断兴趣信号、关系阶段和下一步动作\n- 面对冷场、邀约、误会和拒绝时，给出有分寸的表达\n\n它不替你表演一个完美的人，也不教你使用套路。它的目标很简单：让你更像自己，但表达得更清楚。\n\n## 先看一个真实使用方式\n\n把聊天截图或文字直接发给 AI：\n\n```text\n用 $dating-chat-coach 帮我回这句话。\n\n我的语言习惯：说话比较直接，不喜欢太油腻，平时消息不长。\n我的目标：先自然地聊下去，不急着邀约。\n\n对方说：明天台风，宅家休息，做饭看看综艺。你呢？\n```\n\n它会先判断对方有没有给出话题切口，再给你一条可以直接发送的回复，并说明下一步观察什么。\n\n输出会尽量保持这种结构：\n\n```text\n判断：对方在正常接话，也主动问了你。先回答自己，再接住她的生活安排。\n\n建议发送：我今天也差不多，准备把节奏放慢一点。下雨天适合做点简单的饭，再看个不用太费脑子的东西。\n\n避免：不要连续追问，也不要只回复“你准备做什么饭”，否则聊天会变成采访。\n```\n\n## 这个项目解决什么问题\n\n很多人不是不想认真认识一个人，而是不知道怎么把真实想法说出来：\n\n- 对方说“今天被老板骂了”，你下意识回“那你怼回去”，结果把安慰说成了评判\n- 聊天一直停在“哈哈”“你吃了吗”，想推进却不知道从哪里开始\n- 见完面觉得“哪里不对”，但分不清是红旗、节奏不合，还是自己过度解读\n- 想建立自己的聊天风格，却每次都只能临时问一句“这怎么回”\n\nDating Chat Coach 把这些问题拆成可操作的步骤：上下文、语言习惯、关系阶段、对方信号、回复目标。\n\n## 核心能力\n\n### 1. 用你的口吻，而不是 AI 腔\n\n你可以提供自己的语言习惯、常用表达、雷区、消息长度和希望呈现的语气。助手会据此生成回复，而不是强行把所有人写成同一种“高情商模板”。\n\n### 2. 先判断互动，再决定怎么回\n\n它会区分刚认识、破冰、升温、邀约、见面后、降温和修复，不把每一句话都解释成“对方喜欢你”，也不因为一条短消息就直接判定对方没兴趣。\n\n### 3. 一条主回复，少量备选\n\n默认给一条推荐回复，必要时再给不同语气的备选：稳重、活泼、推进或修复。重点是帮你做决定，不是制造一堆更难选择的话术。\n\n### 4. 把边界放在套路前面\n\n不提供胁迫、骚扰、跟踪、绕过拉黑、制造嫉妒、贬低式搭讪或身份欺骗的话术。沟通辅助应该帮助双方更清楚，而不是把操控包装得更漂亮。\n\n## 安装聊天辅助 Skill\n\n如果你使用支持 Codex Skill 的环境，可以把 `skills/dating-chat-coach` 放到本地 Skills 目录：\n\n```bash\nmkdir -p ~/.codex/skills\ncp -R skills/dating-chat-coach ~/.codex/skills/\n```\n\n然后在对话中使用：\n\n```text\n$dating-chat-coach\n```\n\n也可以不安装，直接把 `skills/dating-chat-coach/SKILL.md` 的内容提供给你的 AI 编程助手。\n\n## 建议先填写自己的沟通档案\n\n模板位于 [`skills/dating-chat-coach/references/context_template.md`](skills/dating-chat-coach/references/context_template.md)。建议先补充：\n\n- 你通常怎么说话\n- 你喜欢和不喜欢哪些表达\n- 你希望显得稳重、温和、直接还是活泼\n- 你当前的交友目标和关系边界\n- 对方的基本资料和当前关系阶段\n\n信息越真实，生成的回复越像你。没有资料也可以直接使用，助手会只根据当前聊天做保守判断。\n\n## 隐私提醒\n\n聊天截图、个人资料和约会记录都可能包含敏感信息。公开分享前请删除姓名、手机号、头像、公司、住址和其他可识别信息。这个项目的通用 Skill 不读取任何固定的个人档案，也不会替你编造身份、经历或情感状态。\n\n## 参与共建\n\n欢迎提交 Issue 或 Pull Request：\n\n- 更好的中文聊天场景和回复结构\n- 不油腻、不操控的沟通边界\n- 不同地区、平台和关系阶段的使用案例\n- 对隐私、误判和安全问题的改进建议\n\n这个项目不承诺替你找到对象，也不替你做最终决定。它只帮你把一次聊天、一次见面和一个模糊的感觉，变成更清楚的信息。\n\n如果它帮你少说错一句话，或者让你更早看清一个不合适的人，欢迎点个 Star，让更多不会聊天但愿意认真认识别人的人看到它。\n\n## License\n\nMIT License。发布前请阅读仓库内的 [`LICENSE`](LICENSE)。\n",
+    "updated": "2026-07-12T23:16:14Z"
+  },
+  {
+    "name": "earnings-signal-reviewer",
+    "description": "开源 AI 财报分析 Skill：审阅业绩预期差、盈利质量、现金流、管理层指引和研究论点变化。",
+    "url": "https://github.com/linxumoney/earnings-signal-reviewer",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/earnings-signal-reviewer/SKILL.md"
+    ],
+    "readme": "# Earnings Signal Reviewer：AI 财报分析与盈利质量审阅 Skill\n\n收入增长并不自动等于经营变好，利润超预期也可能来自一次性项目。真正有价值的财报分析，要把报告事实、管理层叙事和分析推断分开。\n\n`earnings-signal-reviewer` 是一个面向投资研究、战略和经营分析的开源 AI 财报分析 Agent Skill。它生成来源可追溯的季度财报简报，重点检查业绩预期差、盈利质量、现金流、一次性项目、管理层指引和研究论点变化。兼容支持 `SKILL.md` 的 Codex、Claude Code、Cursor 和 OpenCode。\n\n## 默认输出\n\n- 一句话变化判断\n- 关键指标与预期差\n- 盈利质量和现金流检查\n- 管理层解释与证据强度\n- 指引变化和隐含假设\n- 风险、反证与下一次验证点\n\n## 使用示例\n\n```text\n用 $earnings-signal-reviewer 分析这家公司最新季度财报。\n请把事实、管理层说法和你的推断分开，并附原始来源。\n```\n\n## 安装\n\n```bash\ncp -R skills/earnings-signal-reviewer ~/.codex/skills/\n```\n\n## 适用场景\n\n- 上市公司季度财报、年报和业绩电话会分析\n- 收入、利润、现金流和经营指标的同比与环比变化\n- Beat/Miss、公司指引和市场预期差分析\n- 检查盈利质量、一次性收益、库存和应收变化\n- 将财报事实、管理层解释和分析推断分开\n\n## 常见问题\n\n### 它会给出股票买卖建议吗？\n\n不会。Skill 用于信息整理和研究，不提供个性化买入、卖出、仓位或收益承诺。\n\n### 没有一致预期数据怎么办？\n\n它不会滥用“超预期”一词，而会改用同比、环比或公司原指引作为比较基准，并标出数据缺口。\n\n### 为什么要区分事实和管理层解释？\n\n财报数字可以核验，管理层对原因和未来的说法则需要进一步验证。把两者分开能减少被叙事带着走的风险。\n\n## 方法参考\n\n本项目独立实现。财报研究问题域参考了 [anthropics/financial-services](https://github.com/anthropics/financial-services) 的公开金融 Skill，该项目采用 Apache-2.0 License。本项目不复制其报告格式、篇幅约束、图表模板、提示词或代码，也不代表 Anthropic 官方项目。\n\n## 免责声明\n\n输出仅用于信息整理和研究，不构成投资、会计、税务或法律建议。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:28:04Z"
+  },
+  {
+    "name": "fresh-signal-researcher",
+    "description": "开源最近 30 天趋势与竞品研究 Skill：校验事件日期、独立来源、社区情绪和市场动量。",
+    "url": "https://github.com/linxumoney/fresh-signal-researcher",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/fresh-signal-researcher/SKILL.md"
+    ],
+    "readme": "# Fresh Signal Researcher：最近 30 天趋势、竞品与市场信号研究 Skill\n\n研究“最近一个月”最容易犯的错，是把刚发布的旧事件、转述同一消息的十篇文章和没有日期的观点混在一起，然后得出一个看似热闹的趋势。\n\n`fresh-signal-researcher` 是一个面向市场、产品、内容和战略团队的开源近期趋势与竞品研究 Agent Skill。它研究最近 7、14、30 或 90 天的真实变化，区分事件日期和发布日期、原始来源和重复转述、事实和社区情绪。兼容 Codex、Claude Code、Cursor 和 OpenCode。\n\n## 使用示例\n\n```text\n用 $fresh-signal-researcher 调研过去 30 天 AI 视频工具的变化。\n重点看真实产品更新、用户抱怨和购买意向，附每条信号的事件日期。\n```\n\n## 默认输出\n\n- 时间窗和查询范围\n- 已确认的新事件\n- 多来源反复出现的信号\n- 热度与真实动量的区别\n- 反例、沉默信号和数据缺口\n- 接下来值得验证的问题\n\n## 安装\n\n```bash\ncp -R skills/fresh-signal-researcher ~/.codex/skills/\n```\n\n## 适用场景\n\n- 最近 30 天行业趋势、产品更新和技术变化\n- 竞品动态、版本发布、定价调整和用户迁移信号\n- Reddit、YouTube、Hacker News、GitHub 等社区反馈研究\n- 内容选题、热点判断和用户真实痛点发现\n- 区分一次性热搜、营销传播和持续市场动量\n\n## 常见问题\n\n### 为什么要区分事件日期和发布日期？\n\n一篇文章可能刚发布，但讲的是几个月前的事件。Skill 会把这类内容标为“旧事件的新报道”，避免污染近期趋势判断。\n\n### 多篇媒体报道算多个信号吗？\n\n不一定。如果都来自同一公告，会合并成一个事件；只有相互独立的一手证据才会提高置信度。\n\n### 能保证覆盖所有社交平台吗？\n\n不能。输出会说明实际访问的来源、限制和样本偏差，不会虚构帖子、互动量或平台覆盖。\n\n## 方法参考\n\n本项目独立实现。近期多源研究问题域参考了 [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)，该项目采用 MIT License。本项目没有复用其抓取脚本、供应商接口、输出法则、版本协议、缓存逻辑或文字。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:28:13Z"
+  },
+  {
+    "name": "google-ads-pilot",
+    "description": "🚀 Google Ads AI 副驾驶 — 搜索词三重评估、否定词筛选、预算优化、账户诊断 | AI copilot for Google Ads",
+    "url": "https://github.com/linxumoney/google-ads-pilot",
+    "stars": 1,
+    "license": "NOASSERTION",
+    "branch": "main",
+    "skills": [
+      "SKILL.md"
+    ],
+    "readme": "# 🚀 Google Ads Pilot — AI 副驾驶\n\n> Google Ads 操盘手的专业判断逻辑 × AI 执行力 = 10倍效率\n\n把一个资深 Google Ads 操盘手的方法论，打包成你的 AI 副驾驶。\n\n搜索词挖掘、否定词筛选、预算优化、账户诊断、周报分析——以前要花 20 小时的活，10 分钟指令搞定。\n\n---\n\n## ✨ 功能\n\n| 命令 | 功能 |\n|------|------|\n| `/ads search-terms` | 搜索词三重评估 → 否定词清单（含理由） |\n| `/ads negatives` | 否定词策略分析与建议 |\n| `/ads budget` | 预算效率评分 + 迁移方案 |\n| `/ads audit` | 账户10维健康度诊断（满分100分） |\n| `/ads weekly` | 标准化周报分析框架 |\n| `/ads copy <场景>` | RSA 广告文案生成（符合 Google 字符限制） |\n| `/ads match-type` | 匹配类型策略建议 |\n\n---\n\n## 🧠 核心：三重搜索词评估法\n\n传统做法：看转化数 → 留 or 否定  \n**本工具做法：三重交叉验证**\n\n```\n1. 搜索词本身的意图\n   → 这个用户真正想要什么？商业意图 or 信息意图？\n\n2. 触发关键词的合理性\n   → 什么词触发了它？匹配类型是否太宽泛？\n\n3. 广告组主题一致性\n   → 这个词和这个广告组的主题匹配吗？\n```\n\n每条搜索词都有明确理由，不是黑箱决策。\n\n---\n\n## 🚀 快速开始\n\n### 安装\n\n```bash\ngit clone https://github.com/linxumoney/google-ads-pilot.git ~/.claude/skills/google-ads-pilot\n```\n\n### 使用\n\n**方式1：粘贴数据**\n```\n/ads search-terms\n\n[粘贴你从 Google Ads 后台导出的搜索词报告]\n```\n\n**方式2：上传 CSV**\n```\n把导出的搜索词报告 CSV 发给我，说 /ads search-terms\n```\n\n**方式3：描述账户现状**\n```\n/ads audit\n我的账户结构是：3个广告系列，总预算500元/天，\n主要卖企业SaaS软件，目标是获取试用申请……\n```\n\n---\n\n## 📐 账户健康度评分体系\n\n| 维度 | 权重 |\n|------|------|\n| 广告系列结构 | 15% |\n| 广告组粒度 | 15% |\n| 否定词完整性 | 15% |\n| 转化追踪 | 15% |\n| 关键词匹配策略 | 10% |\n| 广告文案质量 | 10% |\n| 落地页相关性 | 10% |\n| 出价策略 | 5% |\n| 受众设置 | 2.5% |\n| 广告附加信息 | 2.5% |\n\n80分以上：账户健康 ✅  \n60-80分：有优化空间 🔧  \n60分以下：需系统重建 ⚠️\n\n---\n\n## 📁 文件结构\n\n```\ngoogle-ads-pilot/\n├── SKILL.md                           ← Claude Code skill 主文件\n└── references/\n    ├── search-term-methodology.md     ← 搜索词三重评估完整标准\n    ├── budget-framework.md            ← 预算优化决策框架\n    ├── account-health.md              ← 账户健康度检查清单\n    └── copy-templates.md              ← RSA 广告文案模板与规则\n```\n\n---\n\n## 📡 关注我\n\n这是「**[林序聊AI · 开源计划](https://github.com/linxumoney)**」的开源项目之一。我会持续开源更多 AI 内容创作工具。\n\n| 平台 | 链接 |\n|------|------|\n| 🐦 X (Twitter) | [@linxumoney](https://x.com/linxumoney) |\n| 📺 YouTube | [@LinXuMoney](https://www.youtube.com/@LinXuMoney) |\n| 💻 GitHub | [github.com/linxumoney](https://github.com/linxumoney) |\n\n觉得有用的话，**点个 Star ⭐ 支持一下**，让更多人发现这个工具。\n\n---\n\n## 📄 License\n\nMIT License — 自由使用、修改、分发。\n",
+    "updated": "2026-03-27T00:26:19Z"
+  },
+  {
+    "name": "growth-experiment-planner",
+    "description": "开源 A/B 测试与增长实验 Agent Skill：生成假设、指标、护栏、停止规则和实验复盘。",
+    "url": "https://github.com/linxumoney/growth-experiment-planner",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/growth-experiment-planner/SKILL.md"
+    ],
+    "readme": "# Growth Experiment Planner：A/B 测试与增长实验规划 Agent Skill\n\n很多增长实验不是失败在结果，而是从一开始就不该进入实验：流量不够、指标不对、变量混在一起，或者即使赢了也不知道下一步做什么。\n\n`growth-experiment-planner` 是一个面向增长、产品和运营团队的开源 A/B 测试与增长实验 Agent Skill。它会先判断一个想法值不值得测，再生成假设、指标、护栏、停止规则和实验复盘卡。兼容支持 `SKILL.md` 的 Codex、Claude Code、Cursor 和 OpenCode 等 AI 编程助手。\n\n## 它会帮你做什么\n\n- 判断问题应该做实验、做用户研究，还是直接修复\n- 把模糊想法改写为可证伪的假设\n- 指定主指标、护栏指标和决策阈值\n- 在低流量场景下给出替代验证方案\n- 生成实验结束后的结论与后续动作\n\n## 直接这样用\n\n```text\n用 $growth-experiment-planner 评估这个想法：\n我们想把注册页从 6 个字段改成 3 个字段，希望提高注册完成率。\n目前每周约 300 个访问，完成率 18%。\n```\n\n默认输出包括：`可测试性判断`、`实验卡`、`测量方案`、`停止规则`和`结果解释模板`。\n\n## 安装\n\n```bash\ncp -R skills/growth-experiment-planner ~/.codex/skills/\n```\n\n然后在对话中调用 `$growth-experiment-planner`，或者直接描述你要评估的增长想法。\n\n## 设计原则\n\n- 先定义决策，再收集数据\n- 不用一个实验同时回答多个问题\n- 不为了“显著”而提前停止\n- 不把点击率自动当成业务价值\n- 数据不足时明确说不足，不制造确定性\n\n## 适用场景\n\n- A/B 测试方案怎么写，主指标和护栏指标怎么选\n- 网站转化率优化、注册漏斗和定价页面实验\n- 流量太少时，应该做实验还是用户研究\n- 实验跑多久、什么时候停止、结果不显著怎么办\n- 建立增长实验优先级、实验 Backlog 和复盘记录\n\n## 常见问题\n\n### 它会自动计算统计显著性吗？\n\n它会检查基线、流量、最小有意义变化和实验设计，但不会在数据不足时编造精确样本量。需要精确计算时，会提示使用统计工具复核。\n\n### 低流量产品也能用吗？\n\n可以。Skill 会优先判断 A/B 测试是否可行，并在流量不足时建议原型测试、访谈、阶段发布或行为数据分析。\n\n### 和普通 A/B 测试模板有什么区别？\n\n它先明确实验结束后要做什么决策。没有决策价值或无法归因的想法，会被建议暂缓，而不是强行包装成实验。\n\n## 方法参考\n\n本项目独立实现。问题域与实验设计常识参考了 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) 中公开的增长实验方向，该项目采用 MIT License。本项目未复制其文字、模板、脚本或目录结构。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:27:55Z"
+  },
+  {
+    "name": "hotspot-radar",
+    "description": "🔥 每日热搜雷达 — 微博/百度热搜抓取 + SEO关键词评分，公众号内容创作选题神器 | Daily trending topic radar for Chinese content creators",
+    "url": "https://github.com/linxumoney/hotspot-radar",
+    "stars": 2,
+    "license": "NOASSERTION",
+    "branch": "main",
+    "skills": [
+      "SKILL.md"
+    ],
+    "readme": "# 🔥 热搜雷达 · Hotspot Radar\n\n> 每天 30 秒，搞定今天写什么。\n\n微博 + 百度实时热搜抓取 × SEO 关键词评分，专为公众号/内容创作者设计的选题工具。\n\n无需 API Key，无需注册账号，直接跑。\n\n---\n\n## ✨ 功能\n\n- 📱 **微博热搜** — 实时热搜榜，抓取 TOP 30\n- 🔍 **百度热搜** — 实时热词，抓取 TOP 30\n- 📊 **SEO 评分** — 对目标关键词做搜索热度打分（0-10），帮你选搜索量更高的词\n- 🎯 **一条命令搞定**，输出清晰，直接用于选题决策\n\n---\n\n## 🚀 快速开始\n\n```bash\n# 克隆\ngit clone https://github.com/linxumoney/hotspot-radar.git\ncd hotspot-radar\n\n# 直接运行（Python 3.8+，无需安装额外依赖）\npython3 scripts/hotspot_radar.py\n```\n\n### 示例输出\n\n```\n=======================================================\n  🔥 热搜雷达  2026-03-27 07:25\n=======================================================\n\n📱 微博热搜 TOP30\n   1. 游客因拍照设备太专业被景区驱赶\n   2. 美方被曝正酝酿对伊朗最后一击\n   ...\n\n📊 SEO 关键词评分（百度搜索热度）\n  比特币          ██████████ 10/10  → 比特币今日最新 / ...\n  加密货币投资       ██████████ 10/10  → 加密货币投资 / ...\n  仓位管理         ██████████ 10/10  → 仓位管理是什么意思 / ...\n```\n\n---\n\n## 📖 用法\n\n```bash\n# 默认：热搜 + 默认关键词评分\npython3 scripts/hotspot_radar.py\n\n# 自定义关键词\npython3 scripts/hotspot_radar.py --keywords BTC暴跌 美国关税 比特币熊市\n\n# 控制热搜条数\npython3 scripts/hotspot_radar.py --limit 20\n\n# JSON 格式输出（供下游程序解析）\npython3 scripts/hotspot_radar.py --json\n```\n\n### 修改默认关键词\n\n编辑 `scripts/hotspot_radar.py` 第 `DEFAULT_KEYWORDS` 行：\n\n```python\nDEFAULT_KEYWORDS = [\"比特币\", \"加密货币投资\", \"仓位管理\", \"资产配置\", \"量化交易\"]\n```\n\n---\n\n## 🧠 工作原理\n\n| 数据源 | 接口 | 说明 |\n|--------|------|------|\n| 微博热搜 | `weibo.com/ajax/side/hotSearch` | 网页端侧边栏接口，实时数据 |\n| 百度热搜 | `top.baidu.com/api/board` | 百度热搜页接口，实时数据 |\n| SEO 评分 | `suggestion.baidu.com/su` | 搜索建议词数量作为热度代理指标 |\n\n所有接口均为公开接口，无需 API Key，模拟浏览器 User-Agent 访问。\n\n---\n\n## 🤖 与 AI 写作工具集成\n\n本工具是 [OpenClaw](https://openclaw.ai) AgentSkill 格式，可直接被 AI Agent 调用：\n\n1. 将目录放入 `~/.openclaw/workspace/skills/`\n2. 对 Agent 说「给我看今天热搜」即可自动触发\n\n---\n\n## 📡 关注我\n\n这是「**[林序聊AI · 开源计划](https://github.com/linxumoney)**」的第一个项目。我会持续开源更多 AI 内容创作工具。\n\n| 平台 | 链接 |\n|------|------|\n| 🐦 X (Twitter) | [@linxumoney](https://x.com/linxumoney) |\n| 📺 YouTube | [@LinXuMoney](https://www.youtube.com/@LinXuMoney) |\n| 💻 GitHub | [github.com/linxumoney](https://github.com/linxumoney) |\n\n觉得有用的话，**点个 Star ⭐ 支持一下**，让更多人发现这个工具。\n\n---\n\n## 📄 License\n\nMIT License — 自由使用、修改、分发。\n",
+    "updated": "2026-03-27T00:26:16Z"
+  },
+  {
+    "name": "linxumoney",
+    "description": "林序聊AI · 开源计划 — AI 内容创作工具",
+    "url": "https://github.com/linxumoney/linxumoney",
+    "stars": 1,
+    "license": null,
+    "branch": "main",
+    "skills": [],
+    "readme": "<h1 align=\"center\">林序聊AI · 开源计划</h1>\n\n<p align=\"center\">\n  <b>AI 内容创作工具开源计划，持续释放生产力</b><br/>\n  把我在做 AI 内容创作过程中沉淀的工具，一个一个开源出来。\n</p>\n\n<p align=\"center\">\n  <a href=\"https://x.com/linxumoney\">\n    <img src=\"https://img.shields.io/badge/X-@linxumoney-000000?style=flat&logo=x\" />\n  </a>\n  &nbsp;\n  <a href=\"https://www.youtube.com/@LinXuMoney\">\n    <img src=\"https://img.shields.io/badge/YouTube-@LinXuMoney-FF0000?style=flat&logo=youtube\" />\n  </a>\n</p>\n\n---\n\n## 🚀 开源项目\n\n| 项目 | 简介 | Stars |\n|------|------|-------|\n| [🔥 hotspot-radar](https://github.com/linxumoney/hotspot-radar) | 每日热搜雷达 — 微博/百度热搜抓取 + SEO关键词评分 | [![Stars](https://img.shields.io/github/stars/linxumoney/hotspot-radar?style=flat)](https://github.com/linxumoney/hotspot-radar) |\n| [🧠 wisdom-council](https://github.com/linxumoney/wisdom-council) | 智者议会 — 巴菲特×芒格×稻盛×Naval×达里奥×蒂尔同台辩论 | [![Stars](https://img.shields.io/github/stars/linxumoney/wisdom-council?style=flat)](https://github.com/linxumoney/wisdom-council) |\n| [🤖 ai-seo](https://github.com/linxumoney/ai-seo) | AI-SEO — 让网站被 ChatGPT/Perplexity/Claude 引用 | [![Stars](https://img.shields.io/github/stars/linxumoney/ai-seo?style=flat)](https://github.com/linxumoney/ai-seo) |\n| [🚀 google-ads-pilot](https://github.com/linxumoney/google-ads-pilot) | Google Ads AI 副驾驶 — 搜索词评估、否定词、预算优化 | [![Stars](https://img.shields.io/github/stars/linxumoney/google-ads-pilot?style=flat)](https://github.com/linxumoney/google-ads-pilot) |\n| [📖 biz-fiction](https://github.com/linxumoney/biz-fiction) | 商业叙事写作引擎 — 用写小说的方式写商业故事 | [![Stars](https://img.shields.io/github/stars/linxumoney/biz-fiction?style=flat)](https://github.com/linxumoney/biz-fiction) |\n| [📣 cn-ads-skills](https://github.com/linxumoney/cn-ads-skills) | 中国市场广告投放技能库 — 巨量/腾讯/小红书/私域漏斗 AI Agent 技能 | [![Stars](https://img.shields.io/github/stars/linxumoney/cn-ads-skills?style=flat)](https://github.com/linxumoney/cn-ads-skills) |\n\n| [🏄 ai-navigator-2026](https://github.com/linxumoney/ai-navigator-2026) | 生财有术 AI 航海家大会 2026 知识库 — 11位嘉宾精华拆解（道法术器）+ 逐字稿 + 夜话问答 | [![Stars](https://img.shields.io/github/stars/linxumoney/ai-navigator-2026?style=flat)](https://github.com/linxumoney/ai-navigator-2026) |\n\n> 更多工具持续更新中...\n\n---\n\n## 📡 找到我\n\n- **X (Twitter)：** [@linxumoney](https://x.com/linxumoney)\n- **YouTube：** [@LinXuMoney](https://www.youtube.com/@LinXuMoney)\n",
+    "updated": "2026-03-30T15:16:26Z"
+  },
+  {
+    "name": "pindou",
+    "description": null,
+    "url": "https://github.com/linxumoney/pindou",
+    "stars": 0,
+    "license": null,
+    "branch": "main",
+    "skills": [],
+    "readme": "# 拼豆图片转换器\n\n一个纯前端、可静态部署的拼豆图片转换网站。用户上传图片后，网站会在浏览器本地完成图片压缩、像素化、颜色量化、拼豆色板匹配、图纸预览、用色统计和高清 PNG 导出。\n\n## 功能\n\n- 支持 JPG、PNG、WEBP、GIF、BMP 等常见图片上传\n- 支持点击上传和拖拽上传\n- 上传后显示原图预览\n- 大图自动降采样到合理尺寸，避免处理卡顿\n- 支持按格数或按成品尺寸生成图纸\n- 支持 2mm / 5mm 拼豆规格\n- 支持锁定原图宽高比例\n- 支持裁切填满或完整留白\n- 支持透明、白色、自定义背景\n- 支持原图近似色模式和拼豆色板匹配模式\n- 内置常用拼豆色板，颜色包含编号、名称和色值\n- 支持限制最大颜色数量\n- 支持显示/隐藏网格线\n- 支持显示/隐藏颜色编号\n- 支持缩放预览和滚动查看大图纸\n- 自动统计每种颜色的预计颗数\n- 支持导出高清 PNG 图纸，适合保存或打印\n\n## 本地运行\n\n这是一个无后端、无构建依赖的静态项目。\n\n直接用浏览器打开：\n\n```text\nbead-studio/index.html\n```\n\n也可以用任意静态服务器运行，例如 VS Code Live Server、Nginx、GitHub Pages、Vercel、Netlify。\n\n## 部署\n\n将 `bead-studio` 目录作为静态网站目录部署即可。\n\n主要文件：\n\n```text\nbead-studio/\n  index.html   页面结构\n  styles.css   页面样式和响应式布局\n  app.js       图片处理、拼豆算法、Canvas 渲染、PNG 导出\n  README.md    项目说明\n```\n\n## 使用方式\n\n1. 点击或拖拽上传图片。\n2. 选择按格数或按成品尺寸生成图纸。\n3. 根据实际拼豆选择 2mm 或 5mm。\n4. 调整色彩数量、图片适配方式、背景和色彩模式。\n5. 查看图纸预览和用色清单。\n6. 需要打印时开启导出编号，然后点击“下载 PNG”。\n\n## 浏览器兼容性\n\n支持现代浏览器：\n\n- Chrome\n- Edge\n- Safari\n- Firefox\n\n图片转换全部在浏览器本地完成，不会上传到服务器。\n\n## 已知限制\n\n- 超过 `200 × 200` 的拼豆图纸会被限制到最大 200 格，避免浏览器长时间卡顿。\n- 内置色板是常用拼豆色的近似集合，不对应某一个品牌的完整官方色号。\n- GIF 会按浏览器解码结果处理首帧或默认帧，不生成动画图纸。\n\n## 开发提示词\n\n下面是本项目的原始开发提示词，作为后续迭代时的产品目标、功能范围和验收标准。\n\n### Personality\n\n你是一位追求完整交付的资深开发者。\n\n在这个项目中，不接受“先做简化版”“能跑就行”“后续再完善”的交付方式。\n\n目标不是做一个勉强可用的图片工具，而是一次性交付一个真正适合拼豆爱好者使用的在线拼豆图片转换网站：功能完整、体验顺滑、视觉清爽、算法可靠、代码可部署、无明显 bug。\n\n开发时请始终遵守：\n\n- 先理解拼豆实操场景，再设计功能和界面\n- 优先交付完整成品，而不是开发计划\n- 不使用临时代码、占位逻辑或伪功能\n- 不堆砌无关功能，只做对拼豆制作真正有帮助的功能\n- 所有核心流程必须可实际使用、可验证、可导出\n- 完成后必须进行自测，并修复明显交互、适配、报错问题\n\n### Role\n\n你是一位资深全栈开发工程师，精通：\n\n- 前端页面搭建\n- Canvas 图片处理\n- 图片像素化算法\n- 色彩量化与颜色匹配\n- 拼豆、像素画、手工图纸生成类工具开发\n- 响应式网页体验优化\n\n你需要开发一个在线拼豆图片转换网站，服务对象是手工拼豆爱好者。网站应适合电脑和平板访问，兼顾新手小白和资深玩家。\n\n最终成果应是完整、可直接运行和部署的网站源码。\n\n### Project Goal\n\n开发一个「拼豆图片转换网站」，用户可以上传图片，网站自动将图片转换为拼豆图纸。\n\n核心流程必须完整：\n\n图片上传 → 图片预览 → 智能像素化 → 拼豆点阵生成 → 参数调节 → 色彩匹配 → 图纸预览 → PNG 高清导出\n\n### Core Features\n\n#### 1. 图片上传\n\n实现图片上传功能，要求：\n\n- 支持 JPG、PNG、WEBP 等常见图片格式\n- 支持点击上传\n- 支持拖拽上传\n- 上传后立即显示原图预览\n- 对超大图片进行合理压缩或降采样，避免页面卡死\n- 上传失败或格式不支持时，给出清晰提示\n\n#### 2. 智能像素化\n\n实现图片像素化处理，要求：\n\n- 根据用户设置生成拼豆点阵\n- 支持设置点阵宽度和高度\n- 支持锁定宽高比例\n- 支持常见拼豆规格：\n  - 2mm 拼豆\n  - 5mm 拼豆\n- 支持选择成品尺寸或格数\n- 像素块边界清晰，不模糊\n- 算法应尽量保留原图主体轮廓和主要颜色\n\n#### 3. 色彩还原与拼豆色匹配\n\n实现拼豆颜色匹配逻辑，要求：\n\n- 内置一套常用拼豆色板\n- 将图片颜色自动匹配到最接近的拼豆颜色\n- 支持显示使用到的颜色列表\n- 每种颜色显示：\n  - 色块\n  - 颜色名称\n  - 颜色编号或标识\n  - 预计使用颗数\n- 支持用户切换：\n  - 原图近似色模式\n  - 拼豆色板匹配模式\n- 色彩匹配应尽量稳定、自然，不出现明显异常偏色\n\n#### 4. 拼豆图纸预览\n\n生成适合手工制作的拼豆图纸，要求：\n\n- 使用网格展示点阵\n- 每个格子代表一颗拼豆\n- 支持显示或隐藏网格线\n- 支持显示或隐藏颜色编号\n- 支持缩放预览\n- 支持移动查看大图纸\n- 图纸区域清晰，不拥挤\n- 大尺寸图纸也应尽量保持流畅\n\n#### 5. 参数调节\n\n提供实用但不冗余的参数控制，至少包括：\n\n- 点阵宽度\n- 点阵高度\n- 是否锁定比例\n- 拼豆尺寸：2mm / 5mm\n- 色彩数量限制\n- 是否启用拼豆色板匹配\n- 网格线开关\n- 编号显示开关\n- 背景色选择，支持透明 / 白色 / 自定义颜色\n\n用户调整参数后，应能实时或点击按钮重新生成图纸。\n\n#### 6. 图纸导出\n\n实现 PNG 高清导出功能，要求：\n\n- 可导出当前拼豆图纸为 PNG\n- 导出图纸应包含清晰网格\n- 可选择是否包含颜色编号\n- 导出图片清晰，适合打印或保存\n- 文件名应有意义，例如 `bead-pattern.png`\n- 导出过程不能破坏当前页面状态\n\n#### 7. 使用说明与部署说明\n\n最终交付中必须包含：\n\n- 页面内简短使用说明\n- README 或独立文档，说明：\n  - 项目功能\n  - 如何本地运行\n  - 如何部署\n  - 浏览器兼容性\n  - 主要文件结构\n  - 已实现功能列表\n\n### UI / UX Requirements\n\n页面设计要求：\n\n- 整体简洁、干净、清爽\n- 不做营销落地页，首页直接就是工具本体\n- 电脑和平板浏览体验优先\n- 操作区域逻辑清晰：\n  - 左侧或上方：上传与参数设置\n  - 中间或右侧：图纸预览\n  - 下方或侧边：颜色统计与导出\n- 按钮、文字、输入框尺寸适合桌面使用\n- 新手无需理解专业概念，也能上传图片后一键生成\n- 不出现广告、无关弹窗、无关装饰\n- 控件命名直观，例如：\n  - 上传图片\n  - 生成图纸\n  - 下载 PNG\n  - 显示网格\n  - 显示编号\n- 页面需要有加载状态、错误提示和空状态\n\n### Technical Requirements\n\n请根据项目现状选择最合适的实现方式。若没有现有框架限制，优先使用轻量、可直接部署的方案。\n\n技术要求：\n\n- 使用 HTML / CSS / JavaScript 或现有项目框架实现\n- 图片处理优先使用 Canvas\n- 不依赖后端服务，所有转换在浏览器本地完成\n- 代码结构清晰，函数职责明确\n- 关键算法需要有简短注释\n- 避免不必要的大型依赖\n- 兼容主流现代浏览器：\n  - Chrome\n  - Edge\n  - Safari\n  - Firefox\n- 页面运行流畅，避免大图处理导致明显卡顿\n- 不出现控制台报错\n\n### Algorithm Requirements\n\n图片转拼豆逻辑应至少包含：\n\n1. 读取上传图片\n2. 根据目标点阵尺寸缩放图片\n3. 对缩放后的像素进行采样\n4. 将每个像素块转换为代表色\n5. 根据色板进行最近色匹配\n6. 生成二维点阵数据\n7. 统计每种颜色使用数量\n8. 使用 Canvas 或 DOM 渲染图纸\n9. 支持导出高清 PNG\n\n色彩匹配建议：\n\n- 使用 RGB 距离或更合理的感知色差算法\n- 可加入简单的亮度、饱和度修正\n- 避免颜色数量过多导致实际制作困难\n\n### Acceptance Criteria\n\n最终交付必须满足：\n\n- 网站源码完整\n- 可直接本地运行\n- 可直接部署为静态网站\n- 无缺失文件\n- 无明显控制台报错\n- 上传图片后可以成功生成拼豆图纸\n- 参数调整后图纸能正确更新\n- 能正确统计颜色和颗数\n- 能成功导出 PNG 高清图纸\n- 电脑和平板尺寸下界面正常显示\n- README / 使用说明完整\n\n### Debug & Verification\n\n开发完成后，请实际进行自测，并在最终回复中说明：\n\n- 已实现的功能\n- 如何运行项目\n- 如何使用网站\n- 已执行的测试或验证\n- 是否存在已知限制\n\n请不要只给开发计划。\n\n请直接完成代码实现、调试和交付。\n",
+    "updated": "2026-07-06T15:12:41Z"
+  },
+  {
+    "name": "product-brief-builder",
+    "description": "开源 AI 产品需求与 PRD Skill：生成产品决策简报、MVP 范围、验收条件、风险和未决问题。",
+    "url": "https://github.com/linxumoney/product-brief-builder",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/product-brief-builder/SKILL.md"
+    ],
+    "readme": "# Product Brief Builder：AI 产品需求、PRD 与 MVP 决策简报 Skill\n\n产品文档最常见的问题不是写得少，而是写了很多背景，却没有说明这次到底要决定什么、哪些是假设、什么不做。\n\n`product-brief-builder` 是一个面向产品经理、创业者和项目负责人的开源 AI 产品需求与 PRD Agent Skill。它把散乱想法压缩成决策型产品简报，明确用户问题、证据、MVP 范围、验收条件、风险和未决问题。适用于 Codex、Claude Code、Cursor 和 OpenCode 等支持 `SKILL.md` 的工具。\n\n## 默认产出\n\n- 本次要做的决策\n- 用户问题与现有证据\n- 成功信号和失败信号\n- 最小范围与明确不做项\n- 关键用户流程和验收条件\n- 假设、风险与未决问题\n\n## 使用示例\n\n```text\n用 $product-brief-builder 把这个想法整理成产品简报：\n我们想给知识库增加 AI 自动分类，但还没确定是否需要人工确认。\n```\n\n## 安装\n\n```bash\ncp -R skills/product-brief-builder ~/.codex/skills/\n```\n\n安装后调用 `$product-brief-builder`。\n\n## 为什么不是又一个 PRD 模板\n\n它不强迫所有项目填写同样的八个章节，也不把未知内容自动补齐。证据不足就标成假设；没有达成共识就列为未决问题。\n\n## 适用场景\n\n- 把一句功能想法整理成产品需求文档或产品简报\n- 确定 MVP 第一版做什么、明确不做什么\n- 从会议记录、用户反馈和调研中提炼需求\n- 为需求评审补齐状态、权限、错误流程和验收标准\n- 精简冗长 PRD，突出真正需要团队决定的问题\n\n## 常见问题\n\n### 它生成完整 PRD 还是一页简报？\n\n默认生成可扫描的决策简报。复杂项目可以扩展附录，但主文档始终围绕一个核心决策。\n\n### 证据不完整怎么办？\n\n不会自动补写。已知事实、未经验证的假设和未决问题会分开列出，并给出下一步验证动作。\n\n### 能直接交给研发吗？\n\n当核心流程、关键状态和验收条件已经明确时可以用于评审；技术方案、安全和合规仍需对应专业人员确认。\n\n## 方法参考\n\n本项目独立实现。产品需求结构的问题域参考了 [phuryn/pm-skills](https://github.com/phuryn/pm-skills)，该项目采用 MIT License。本项目没有复制其 PRD 模板、章节结构、示例或文字。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:27:59Z"
+  },
+  {
+    "name": "research-citation-auditor",
+    "description": "开源论文引用核验 Skill：检查 DOI、PMID、BibTeX、参考文献真实性和论断支持关系。",
+    "url": "https://github.com/linxumoney/research-citation-auditor",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/research-citation-auditor/SKILL.md"
+    ],
+    "readme": "# Research Citation Auditor：论文引用核验与参考文献审计 Skill\n\n论文和研究报告最危险的错误，往往不是观点不同，而是引用根本不支持这句话：作者写错、年份写错、二手来源冒充原始研究，甚至文献不存在。\n\n`research-citation-auditor` 是一个面向研究人员、学生和专业写作者的开源论文引用核验与参考文献审计 Agent Skill。它通过“论断-证据账本”检查 DOI、PMID、arXiv、作者、年份和来源是否真实，以及文献是否真正支持当前论断。兼容 Codex、Claude Code、Cursor 和 OpenCode 等支持 `SKILL.md` 的工具。\n\n## 它会检查\n\n- DOI、PMID、arXiv ID 或正式页面能否验证\n- 作者、标题、年份、期刊是否一致\n- 原文到底支持、部分支持，还是不支持当前论断\n- 是否把综述、新闻或二手引用当成原始证据\n- 哪些重要论断没有引用，哪些引用重复或失效\n\n## 使用示例\n\n```text\n用 $research-citation-auditor 审核这篇稿子的引用。\n先建立论断-证据账本，不确定的文献不要补写。\n```\n\n## 安装\n\n```bash\ncp -R skills/research-citation-auditor ~/.codex/skills/\n```\n\n## 适用场景\n\n- 论文、毕业设计、文献综述和研究报告引用核验\n- 检查 DOI、PMID、arXiv ID、作者、年份和期刊信息\n- 识别假引用、错引、二手引用和过度推断\n- 审核 BibTeX、参考文献列表和重复引用\n- 建立论断与证据的对应关系，找出缺失引用\n\n## 常见问题\n\n### 它会自动补充参考文献吗？\n\n只有找到并核验真实来源后才会建议替换引用。无法验证的文献会明确标记，不会生成看起来正确的虚构 DOI。\n\n### 只检查格式吗？\n\n不只检查格式。它会分别判断“文献是否真实存在”和“文献是否支持这句话”，这是引用审计最关键的两个问题。\n\n### 能代替同行评审吗？\n\n不能。它适合发现引用和证据链问题，领域结论、统计方法和研究质量仍需要专业审查。\n\n## 方法参考\n\n本项目独立实现。引用管理问题域参考了 [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) 的公开研究工作流，该项目采用 MIT License。本项目不包含其脚本、数据库集成、环境变量设计或原文内容。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:28:02Z"
+  },
+  {
+    "name": "slide-story-architect",
+    "description": "开源 AI PPT 大纲与演示叙事 Skill：生成故事线、逐页标题、证据、视觉形式和讲者过渡。",
+    "url": "https://github.com/linxumoney/slide-story-architect",
+    "stars": 2,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/slide-story-architect/SKILL.md"
+    ],
+    "readme": "# Slide Story Architect：AI PPT 大纲与演示叙事规划 Skill\n\n大多数演示文稿的问题不是“不够好看”，而是每页都在放资料，却没有一条能让观众跟下去的逻辑线。\n\n`slide-story-architect` 是一个面向工作汇报、商业路演、课程和提案的开源 AI PPT 大纲与演示叙事 Agent Skill。它先确定观众和决策，再生成故事线、逐页结论式标题、证据、视觉形式和讲者过渡。兼容 Codex、Claude Code、Cursor 和 OpenCode 等支持 `SKILL.md` 的工具。\n\n## 使用示例\n\n```text\n用 $slide-story-architect 把这份调研材料整理成 12 页管理层汇报。\n观众要决定是否投入下一阶段预算，每页只承担一个任务。\n```\n\n## 你会得到\n\n- 一句话演示目标\n- 开场、张力、证据、方案和行动的叙事线\n- 每页标题、核心结论、证据和视觉建议\n- 可删除内容和附录建议\n- 讲者备注中的过渡句\n\n## 安装\n\n```bash\ncp -R skills/slide-story-architect ~/.codex/skills/\n```\n\n## 适用场景\n\n- 工作汇报、管理层汇报和项目复盘 PPT 大纲\n- 创业路演、销售提案和预算申请的故事线\n- 研究报告、课程和培训材料转幻灯片结构\n- 精简页数、修改标题和重组现有 PPT 逻辑\n- 为每页选择图表、流程图、截图或对比表\n\n## 常见问题\n\n### 它会直接生成 PPTX 文件吗？\n\n这个 Skill 专注演示目标、叙事结构和逐页内容规格。只有实际连接幻灯片生成工具并验证文件后，才能声称已生成 PPTX。\n\n### 和普通 PPT 大纲有什么区别？\n\n它要求每页只承担一个工作，且所有标题连读后能复述完整故事；重要结论必须有证据或明确标为假设。\n\n### 长文档会按段落拆页吗？\n\n不会机械拆页。它会围绕观众需要做出的理解和决定重新组织内容，多余材料放入附录。\n\n## 方法参考\n\n本项目独立实现。AI 演示文稿工作流的问题域参考了 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)，该项目采用 MIT License。本项目不包含其 PPTX 生成代码、模板、图标、形状数据、导出流程或原文说明。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:28:10Z"
+  },
+  {
+    "name": "ui-critique-coach",
+    "description": "开源 AI UI/UX 评审 Skill：检查用户任务、信息层级、交互状态、响应式和可访问性。",
+    "url": "https://github.com/linxumoney/ui-critique-coach",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/ui-critique-coach/SKILL.md"
+    ],
+    "readme": "# UI Critique Coach：AI UI/UX 评审与可访问性检查 Skill\n\n好的 UI 评审不是换一种渐变、把圆角调大，也不是凭审美给分。它要回答：用户能不能看懂下一步、关键状态有没有覆盖、手机上会不会崩、键盘和读屏用户能不能完成任务。\n\n`ui-critique-coach` 是一个面向设计师、前端和产品团队的开源 AI UI/UX 评审 Agent Skill。它从截图、设计稿或代码中检查用户任务、信息层级、交互状态、响应式布局和无障碍问题，并输出按 P0-P3 严重度排序的修改建议。兼容 Codex、Claude Code、Cursor 和 OpenCode。\n\n## 使用示例\n\n```text\n用 $ui-critique-coach 评审这个页面截图和对应代码。\n用户的核心任务是完成退款申请，请先找阻断问题，再谈视觉优化。\n```\n\n## 默认输出\n\n- 核心任务完成度\n- P0-P3 问题清单\n- 每个问题的证据、影响和建议\n- 缺失状态与移动端风险\n- 最值得先改的三件事\n\n## 安装\n\n```bash\ncp -R skills/ui-critique-coach ~/.codex/skills/\n```\n\n## 适用场景\n\n- 网页、App、SaaS 后台和表单的 UI/UX 评审\n- 根据截图找出信息层级和核心任务阻断\n- 检查加载、空状态、错误、成功和权限状态\n- 移动端响应式、长文本、缩放和内容溢出检查\n- 键盘操作、焦点、标签、颜色对比和可访问性审查\n\n## 常见问题\n\n### 只有截图，没有代码能评审吗？\n\n可以评审可见的信息层级、文案、状态和布局，但看不到的交互会标记为待验证，不会假装完成了完整流程测试。\n\n### 它会重新设计整个页面吗？\n\n默认先给按严重度排序的问题和修改建议。用户明确要求实现时，再结合现有设计系统修改代码。\n\n### 会不会所有页面都改成同一种风格？\n\n不会。Skill 优先遵循项目已有品牌和组件系统，并把个人审美与可用性事实分开。\n\n## 方法参考\n\n本项目独立实现。AI 辅助界面设计问题域参考了 [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)，该项目采用 MIT License。本项目没有复用其数据库、设计规则、命令、脚本或提示词。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:28:08Z"
+  },
+  {
+    "name": "voice-preserving-editor",
+    "description": "开源中文去 AI 腔与个人风格润色 Skill：锁定事实、立场和作者声音，减少模板化表达。",
+    "url": "https://github.com/linxumoney/voice-preserving-editor",
+    "stars": 0,
+    "license": "MIT",
+    "branch": "main",
+    "skills": [
+      "skills/voice-preserving-editor/SKILL.md"
+    ],
+    "readme": "# Voice Preserving Editor：中文去 AI 腔与个人写作风格润色 Skill\n\n很多“去 AI 味”工具只是把一批词换成另一批词，最后文章更口语，却不像原作者。真正的编辑应该保留事实、立场和节奏，只处理模板感、空话和不自然的组织方式。\n\n`voice-preserving-editor` 是一个面向中文和英文写作的开源去 AI 腔与个人风格润色 Agent Skill。它先锁定事实、立场和作者声音，再处理模板化句式、空话、宣传腔、重复结构和不自然过渡。兼容 Codex、Claude Code、Cursor 和 OpenCode 等支持 `SKILL.md` 的工具。\n\n## 使用示例\n\n```text\n用 $voice-preserving-editor 编辑这篇文章。\n这是我以前写的一段文字，请保持我的句子节奏和直接程度。\n不要增加新观点，也不要为了口语化删掉事实。\n```\n\n## 它不会做什么\n\n- 不承诺绕过 AI 检测器\n- 不伪装作者身份或写作过程\n- 不自动增加个人经历、情绪和观点\n- 不为了“更像人”故意加入错误\n\n## 安装\n\n```bash\ncp -R skills/voice-preserving-editor ~/.codex/skills/\n```\n\n## 适用场景\n\n- 中文文章去 AI 腔、博客润色和公众号改稿\n- 根据历史样本匹配个人写作风格\n- 保留原意、事实和立场的文章改写\n- 减少空泛总结、宣传腔、机械连接词和模板句式\n- 技术文章、研究内容和品牌文案的语气校准\n\n## 常见问题\n\n### 它能绕过 AI 检测器吗？\n\n不承诺，也不以绕过检测为目标。它解决的是文本质量和作者声音问题，不帮助规避学术诚信或平台审核。\n\n### 没有个人写作样本怎么办？\n\n会采用中性、克制的编辑方式，只减少明显模板感，不擅自增加个人经历、观点或情绪。\n\n### 会不会删掉原文的重要信息？\n\n编辑前会锁定数字、日期、名称、条件和立场，修改后再检查信息是否丢失或新增。\n\n## 方法参考\n\n本项目独立实现。AI 写作模式识别问题域参考了 [blader/humanizer](https://github.com/blader/humanizer)，该项目采用 MIT License。本项目没有复制其模式清单、示例、章节结构或原文表达，核心流程改为“声音基线 + 编辑预算 + 事实锁定”。\n\n## License\n\nMIT License。\n",
+    "updated": "2026-07-13T01:28:15Z"
+  },
+  {
+    "name": "wisdom-council",
+    "description": "🧠 智者议会 — 巴菲特×芒格×稻盛×Naval×达里奥×蒂尔，7位顶级思想家同台辩论你的问题 | Ask the world's greatest minds",
+    "url": "https://github.com/linxumoney/wisdom-council",
+    "stars": 1,
+    "license": "NOASSERTION",
+    "branch": "main",
+    "skills": [
+      "SKILL.md"
+    ],
+    "readme": "# 🧠 智者议会 · Wisdom Council\n\n> 向世界上最有智慧的人提问，让他们替你辩论。\n\n巴菲特 × 芒格 × 稻盛和夫 × 彼得·林奇 × Naval × 达里奥 × 彼得·蒂尔——7位智者同台，碰撞你的问题。\n\n---\n\n## ✨ 示例\n\n**你问：** 我现在应该创业还是继续打工？\n\n```\n彼得·蒂尔：你问错了问题。真正的问题是：你脑子里有没有一个\n别人不相信、但你确信是真的东西？没有洞见的创业，是花钱\n购买一段痛苦经历。\n\n查理·芒格：先逆向思考——什么会让你的创业失败？90%的人\n创业失败不是运气差，是开始之前就注定了结局。\n\n稻盛和夫：你想创业是为了给谁创造价值？动机至善，私心了无\n——这是唯一的检验标准。\n\nNaval：不是创业才算创造财富。关键是你的时间有没有在产生复利。\n\n主持人：蒂尔和稻盛的根本分歧在于：一个看认知，一个看灵魂。\n你的决策坐标是……\n```\n\n---\n\n## 🚀 快速开始\n\n### 方式一：Claude Code（推荐）\n\n```bash\n# 安装\ncp -r wisdom-council ~/.claude/skills/\n\n# 在 Claude Code 中触发\n/council 我应该投资比特币吗？\n/智者 如何判断一个生意值不值得做？\n```\n\n### 方式二：复制 Prompt\n\n把 `SKILL.md` + `references/thinkers.md` 的内容贴进任意 AI 对话框，直接使用。\n\n---\n\n## 🧩 7位智者\n\n| 智者 | 核心哲学 | 最适合的问题 |\n|------|---------|------------|\n| 🇺🇸 沃伦·巴菲特 | 护城河、长期持有、能力圈 | 投资、企业价值判断 |\n| 🧠 查理·芒格 | 多元思维模型、逆向思考、激励机制 | 任何决策，尤其是复杂问题 |\n| 🎌 稻盛和夫 | 利他经营、现场主义、极致主义 | 经营管理、人生哲学 |\n| 📈 彼得·林奇 | 生活观察法、十倍股、平民视角 | 个股选择、日常投资 |\n| ⚡ Naval Ravikant | 杠杆思维、独特知识、财富创造 | 创业、个人品牌、财富路径 |\n| 📊 雷·达里奥 | 债务周期、极度透明、原则化 | 宏观经济、组织管理 |\n| 🔥 彼得·蒂尔 | 从0到1、垄断、反共识 | 创新、颠覆性判断 |\n\n---\n\n## 💡 触发方式\n\n```\n/council [你的问题]\n/智者 [你的问题]\n/议会 [你的问题]\n\n点名提问：\n让巴菲特和芒格辩论一下 [主题]\n只要Naval的观点：[问题]\n蒂尔怎么看 [这件事]\n```\n\n---\n\n## 📁 文件结构\n\n```\nwisdom-council/\n├── SKILL.md              ← Claude Code skill 主文件\n└── references/\n    └── thinkers.md       ← 7位智者思维模型详解\n```\n\n---\n\n## 📡 关注我\n\n这是「**[林序聊AI · 开源计划](https://github.com/linxumoney)**」的开源项目之一。我会持续开源更多 AI 内容创作工具。\n\n| 平台 | 链接 |\n|------|------|\n| 🐦 X (Twitter) | [@linxumoney](https://x.com/linxumoney) |\n| 📺 YouTube | [@LinXuMoney](https://www.youtube.com/@LinXuMoney) |\n| 💻 GitHub | [github.com/linxumoney](https://github.com/linxumoney) |\n\n觉得有用的话，**点个 Star ⭐ 支持一下**，让更多人发现这个工具。\n\n---\n\n## 📄 License\n\nMIT License — 自由使用、修改、分发。\n",
+    "updated": "2026-03-27T00:26:17Z"
+  }
+]

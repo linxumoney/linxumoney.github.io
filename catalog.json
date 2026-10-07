@@ -1,0 +1,267 @@
+[
+  {
+    "name": "hotspot-radar",
+    "title": "热搜雷达",
+    "category": "内容创作",
+    "icon": "雷达",
+    "summary": "抓取微博与百度热搜，结合关键词评分，找到值得写的选题。",
+    "url": "https://github.com/linxumoney/hotspot-radar",
+    "stars": 2,
+    "licenseLabel": "自定义许可",
+    "skillUrl": "https://github.com/linxumoney/hotspot-radar/blob/main/SKILL.md",
+    "skills": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "biz-fiction",
+    "title": "商业叙事写作",
+    "category": "内容创作",
+    "icon": "故事",
+    "summary": "把真实商业人物与事件，组织成有场景、有细节的叙事长文。",
+    "url": "https://github.com/linxumoney/biz-fiction",
+    "stars": 4,
+    "licenseLabel": "自定义许可",
+    "skillUrl": "https://github.com/linxumoney/biz-fiction/blob/main/SKILL.md",
+    "skills": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "voice-preserving-editor",
+    "title": "保留你的声音",
+    "category": "内容创作",
+    "icon": "润色",
+    "summary": "减少模板感和空话，保留原文事实、立场与作者的表达节奏。",
+    "url": "https://github.com/linxumoney/voice-preserving-editor",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/voice-preserving-editor/blob/main/skills/voice-preserving-editor/SKILL.md",
+    "skills": [
+      "skills/voice-preserving-editor/SKILL.md"
+    ]
+  },
+  {
+    "name": "slide-story-architect",
+    "title": "演示叙事架构师",
+    "category": "内容创作",
+    "icon": "演示",
+    "summary": "围绕观众和决策，整理故事线、逐页标题、证据与讲者过渡。",
+    "url": "https://github.com/linxumoney/slide-story-architect",
+    "stars": 2,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/slide-story-architect/blob/main/skills/slide-story-architect/SKILL.md",
+    "skills": [
+      "skills/slide-story-architect/SKILL.md"
+    ]
+  },
+  {
+    "name": "cn-ads-skills",
+    "title": "中国广告投放技能库",
+    "category": "营销增长",
+    "icon": "投放",
+    "summary": "覆盖用户洞察、广告文案、创意、转化路径和投放诊断的技能组合。",
+    "url": "https://github.com/linxumoney/cn-ads-skills",
+    "stars": 18,
+    "licenseLabel": "许可未标注",
+    "skillUrl": "https://github.com/linxumoney/cn-ads-skills/blob/main/skills/copy-chief/awareness-mapper/SKILL.md",
+    "skills": [
+      "skills/copy-chief/awareness-mapper/SKILL.md",
+      "skills/copy-chief/headline-matrix/SKILL.md",
+      "skills/copy-chief/mechanism-builder/SKILL.md",
+      "skills/copy-chief/objection-crusher/SKILL.md",
+      "skills/foundations/avatar-extraction/SKILL.md",
+      "skills/foundations/offer-extraction/SKILL.md",
+      "skills/foundations/voice-of-customer/SKILL.md",
+      "skills/operator-os/ad-angle-multiplier/SKILL.md",
+      "skills/operator-os/conversion-path-builder/SKILL.md",
+      "skills/operator-os/performance-diagnosis/SKILL.md",
+      "skills/operator-os/scroll-stopping-creative/SKILL.md",
+      "skills/orchestrators/full-funnel-orchestrator/SKILL.md",
+      "skills/qa/claim-checker/SKILL.md",
+      "skills/qa/generic-language-killer/SKILL.md"
+    ]
+  },
+  {
+    "name": "google-ads-pilot",
+    "title": "Google Ads 副驾驶",
+    "category": "营销增长",
+    "icon": "广告",
+    "summary": "辅助搜索词评估、否定词筛选、预算优化和账户诊断。",
+    "url": "https://github.com/linxumoney/google-ads-pilot",
+    "stars": 1,
+    "licenseLabel": "自定义许可",
+    "skillUrl": "https://github.com/linxumoney/google-ads-pilot/blob/main/SKILL.md",
+    "skills": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ai-seo",
+    "title": "AI 搜索优化",
+    "category": "营销增长",
+    "icon": "搜索",
+    "summary": "检查内容可引用性、爬虫访问和结构化数据，梳理 GEO 改进方向。",
+    "url": "https://github.com/linxumoney/ai-seo",
+    "stars": 3,
+    "licenseLabel": "自定义许可",
+    "skillUrl": "https://github.com/linxumoney/ai-seo/blob/main/SKILL.md",
+    "skills": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "growth-experiment-planner",
+    "title": "增长实验规划师",
+    "category": "营销增长",
+    "icon": "实验",
+    "summary": "把增长想法拆成假设、指标、护栏、停止规则和实验复盘。",
+    "url": "https://github.com/linxumoney/growth-experiment-planner",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/growth-experiment-planner/blob/main/skills/growth-experiment-planner/SKILL.md",
+    "skills": [
+      "skills/growth-experiment-planner/SKILL.md"
+    ]
+  },
+  {
+    "name": "product-brief-builder",
+    "title": "产品决策简报",
+    "category": "产品开发",
+    "icon": "产品",
+    "summary": "梳理需求、MVP 范围与验收条件，让团队知道这次要决定什么。",
+    "url": "https://github.com/linxumoney/product-brief-builder",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/product-brief-builder/blob/main/skills/product-brief-builder/SKILL.md",
+    "skills": [
+      "skills/product-brief-builder/SKILL.md"
+    ]
+  },
+  {
+    "name": "ui-critique-coach",
+    "title": "UI / UX 评审教练",
+    "category": "产品开发",
+    "icon": "界面",
+    "summary": "从任务、信息层级、交互状态、响应式与可访问性检查界面。",
+    "url": "https://github.com/linxumoney/ui-critique-coach",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/ui-critique-coach/blob/main/skills/ui-critique-coach/SKILL.md",
+    "skills": [
+      "skills/ui-critique-coach/SKILL.md"
+    ]
+  },
+  {
+    "name": "cloud-incident-coach",
+    "title": "云安全事件响应",
+    "category": "产品开发",
+    "icon": "安全",
+    "summary": "保全证据、梳理时间线与影响范围，制定可逆遏制和恢复方案。",
+    "url": "https://github.com/linxumoney/cloud-incident-coach",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/cloud-incident-coach/blob/main/skills/cloud-incident-coach/SKILL.md",
+    "skills": [
+      "skills/cloud-incident-coach/SKILL.md"
+    ]
+  },
+  {
+    "name": "fresh-signal-researcher",
+    "title": "近期趋势研究员",
+    "category": "研究决策",
+    "icon": "趋势",
+    "summary": "校验最近 30 天的事件日期、独立来源、社区情绪与市场信号。",
+    "url": "https://github.com/linxumoney/fresh-signal-researcher",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/fresh-signal-researcher/blob/main/skills/fresh-signal-researcher/SKILL.md",
+    "skills": [
+      "skills/fresh-signal-researcher/SKILL.md"
+    ]
+  },
+  {
+    "name": "earnings-signal-reviewer",
+    "title": "财报信号审阅",
+    "category": "研究决策",
+    "icon": "财报",
+    "summary": "拆解盈利质量、现金流、业绩预期差和管理层指引。",
+    "url": "https://github.com/linxumoney/earnings-signal-reviewer",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/earnings-signal-reviewer/blob/main/skills/earnings-signal-reviewer/SKILL.md",
+    "skills": [
+      "skills/earnings-signal-reviewer/SKILL.md"
+    ]
+  },
+  {
+    "name": "research-citation-auditor",
+    "title": "论文引用核验",
+    "category": "研究决策",
+    "icon": "引用",
+    "summary": "核验文献真实性，检查论断与证据之间是否真正对应。",
+    "url": "https://github.com/linxumoney/research-citation-auditor",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/research-citation-auditor/blob/main/skills/research-citation-auditor/SKILL.md",
+    "skills": [
+      "skills/research-citation-auditor/SKILL.md"
+    ]
+  },
+  {
+    "name": "wisdom-council",
+    "title": "智者议会",
+    "category": "研究决策",
+    "icon": "议会",
+    "summary": "模拟七位思想家的思维视角，讨论商业选择与复杂问题。",
+    "url": "https://github.com/linxumoney/wisdom-council",
+    "stars": 1,
+    "licenseLabel": "自定义许可",
+    "skillUrl": "https://github.com/linxumoney/wisdom-council/blob/main/SKILL.md",
+    "skills": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "ai-navigator-2026",
+    "title": "AI 航海家大会知识库",
+    "category": "研究决策",
+    "icon": "知识",
+    "summary": "检索大会嘉宾分享、逐字稿和问答，引用原始观点与方法。",
+    "url": "https://github.com/linxumoney/ai-navigator-2026",
+    "stars": 5,
+    "licenseLabel": "许可未标注",
+    "skillUrl": "https://github.com/linxumoney/ai-navigator-2026/blob/master/SKILL.md",
+    "skills": [
+      "SKILL.md"
+    ]
+  },
+  {
+    "name": "career-fit-coach",
+    "title": "岗位匹配教练",
+    "category": "个人成长",
+    "icon": "职业",
+    "summary": "用 JD 和真实经历建立证据矩阵，判断岗位匹配与简历修改方向。",
+    "url": "https://github.com/linxumoney/career-fit-coach",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/career-fit-coach/blob/main/skills/career-fit-coach/SKILL.md",
+    "skills": [
+      "skills/career-fit-coach/SKILL.md"
+    ]
+  },
+  {
+    "name": "dating-chat-coach",
+    "title": "自然聊天教练",
+    "category": "个人成长",
+    "icon": "沟通",
+    "summary": "结合个人语言习惯和聊天上下文，整理自然、尊重的回复建议。",
+    "url": "https://github.com/linxumoney/dating-chat-coach",
+    "stars": 0,
+    "licenseLabel": "MIT",
+    "skillUrl": "https://github.com/linxumoney/dating-chat-coach/blob/main/skills/dating-chat-coach/SKILL.md",
+    "skills": [
+      "skills/dating-chat-coach/SKILL.md"
+    ]
+  }
+]
