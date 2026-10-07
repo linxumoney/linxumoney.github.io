@@ -5,12 +5,13 @@
 - 网站：https://linxumoney.github.io
 - 技能来源：https://github.com/linxumoney
 - 频道：https://www.youtube.com/@LinXuMoney
+- 商业授权：linxu.money@gmail.com
 
 ## 第一版
 
 18 个包含 `SKILL.md` 的公开项目，共 31 个技能文件；按内容创作、营销增长、产品开发、研究决策、个人成长分类。包含关键词搜索、技能详情、仓库文档与安装入口，以及三条真实频道视频。
 
-许可状态来自 GitHub API，未识别的许可证标注为「自定义许可」，无许可证标注为「许可未标注」。工具的实际使用与分发条件以各项目原始许可证为准。
+所有项目默认允许个人学习、研究、测试和非商业使用。商业服务、收费产品、企业商业用途或商业分发，请先联系 linxu.money@gmail.com 获得授权。代码与 Skills 采用 PolyForm Noncommercial 1.0.0；文章、案例与知识内容采用 CC BY-NC 4.0。每个仓库都附有 `COMMERCIAL-LICENSING.md` 说明。
 
 ## 本地预览
 
@@ -41,9 +42,4 @@ node --check app.js
 - `sync_repositories.py`：手动刷新公开来源
 - `assets/`：频道公开头像与本站图标
 
-本仓库只收录公开资料。频道头像与品牌元素属于林序；各技能源码和许可保留在原仓库。
-
-## 商业授权
-
-个人学习、研究、测试和非商业使用可以。商业使用请先联系 **linxu.money@gmail.com** 获得授权，详见 [COMMERCIAL-LICENSING.md](COMMERCIAL-LICENSING.md)。
-
+本仓库只收录公开资料。频道头像与品牌元素属于林序；各技能源码和许可保留在原仓库。商业授权联系：linxu.money@gmail.com。
