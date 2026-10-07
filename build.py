@@ -25,7 +25,7 @@ count=sum(len(r['skills']) for r in selected)
 for r in selected:
  m=meta.get(r['name'],(r['name'],'其他','工具',r['description'] or '查看项目文档'))
  r.update(title=m[0],category=m[1],icon=m[2],summary=m[3])
- r['licenseLabel']='MIT' if r['license']=='MIT' else ('自定义许可' if r['license'] else '许可未标注')
+ r['licenseLabel']='PolyForm Noncommercial' if r['name'] not in {'ai-navigator-2026','wisdom-council','biz-fiction'} else 'CC BY-NC 4.0'
  r['skillUrl']=r['url']+'/blob/'+r['branch']+'/'+r['skills'][0]
  # Only carry public catalog fields into the browser.
 data=[{k:r[k] for k in ['name','title','category','icon','summary','url','stars','licenseLabel','skillUrl','skills']} for r in selected]
@@ -45,7 +45,8 @@ page='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name
 <a class="video-card" href="https://www.youtube.com/watch?v=hojynYkUbvI" target="_blank" rel="noopener noreferrer"><div class="video-art art-two"><span>RESEARCH / 实战</span><strong>做一个<br>自动化投研 Agent。</strong><span class="play">▶</span></div><h3>Web3 / 美股全自动化投研 Agent</h3><p>从研究任务到可运行的工作流</p></a>
 <a class="video-card" href="https://www.youtube.com/watch?v=H3S7meujFfg" target="_blank" rel="noopener noreferrer"><div class="video-art art-three"><span>BUSINESS / 拆解</span><strong>看懂 AI 生意<br>的收款入口。</strong><span class="play">▶</span></div><h3>拆解卖课、订阅与企业服务</h3><p>AI 创作者的产品与商业路径</p></a></div></section>
 <section id="start" class="start section"><div><span class="eyebrow">QUICK START / 开始使用</span><h2>把方法，交给你的 AI。</h2><p>Skill 把一个任务的方法、规则和参考资料<br>整理成 AI 工具可读取的文件。</p><a class="text-link" href="https://github.com/linxumoney" target="_blank" rel="noopener noreferrer">查看全部源码 ↗</a></div><ol><li><span>01</span><div><h3>选一个真实任务</h3><p>从写作、投放、研究或产品工作中，找到你现在需要解决的问题。</p></div></li><li><span>02</span><div><h3>按项目文档安装</h3><p>打开对应仓库的 README。不同项目的目录结构、依赖与适用工具会有区别。</p></div></li><li><span>03</span><div><h3>带着自己的材料试一次</h3><p>参考仓库示例发起任务，核对输出。把遇到的问题提交到项目 Issues。</p></div></li></ol></section>
-</main><footer><div class="brand"><span class="brand-mark">LX<span>↗</span></span><span>林序聊AI<small>用技术理解商业，用 AI 放大杠杆。</small></span></div><div><a href="https://github.com/linxumoney">GitHub ↗</a><a href="https://www.youtube.com/@LinXuMoney">YouTube ↗</a><a href="https://x.com/linxumoney">X ↗</a></div><p>© 2026 林序聊AI · 保持好奇，持续动手。</p></footer>
+<section class="license-note section"><span class="eyebrow">USAGE / 使用边界</span><h2>个人使用可以，商业使用请先联系。</h2><p>所有项目默认允许个人学习、研究、测试和非商业使用。商业服务、收费产品、企业商业用途或商业分发，请先取得授权。</p><a class="email-link" href="mailto:linxu.money@gmail.com">linxu.money@gmail.com ↗</a><small>代码与 Skills：PolyForm Noncommercial 1.0.0 · 文章、案例与知识内容：CC BY-NC 4.0</small></section>
+</main><footer><div class="brand"><span class="brand-mark">LX<span>↗</span></span><span>林序聊AI<small>用技术理解商业，用 AI 放大杠杆。</small></span></div><div><a href="https://github.com/linxumoney">GitHub ↗</a><a href="https://www.youtube.com/@LinXuMoney">YouTube ↗</a><a href="https://x.com/linxumoney">X ↗</a><a href="mailto:linxu.money@gmail.com">邮箱 ↗</a></div><p>© 2026 林序聊AI · 个人与非商业使用可以 · 商业授权：linxu.money@gmail.com</p></footer>
 <dialog id="detail"><button class="close" aria-label="关闭详情">×</button><div id="detail-content"></div></dialog></body></html>'''
 page=page.replace('__PROJECTS__',str(len(selected))).replace('__SKILLS__',str(count)).replace('__FILTERS__',filters).replace('__CARDS__',''.join(card(r,i) for i,r in enumerate(selected)))
 (root/'index.html').write_text(page)
