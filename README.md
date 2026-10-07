@@ -42,3 +42,8 @@ node --check app.js
 - `assets/`：频道公开头像与本站图标
 
 本仓库只收录公开资料。频道头像与品牌元素属于林序；各技能源码和许可保留在原仓库。
+
+## 商业授权
+
+个人学习、研究、测试和非商业使用可以。商业使用请先联系 **linxu.money@gmail.com** 获得授权，详见 [COMMERCIAL-LICENSING.md](COMMERCIAL-LICENSING.md)。
+
