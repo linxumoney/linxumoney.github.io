@@ -1,6 +1,6 @@
 import json,pathlib,html,re
 root=pathlib.Path(__file__).parent
-repos=json.loads((root/'repository-snapshot.json').read_text())
+repos=json.loads((root/'repository-snapshot.json').read_text(encoding='utf-8'))
 meta={
 'hotspot-radar':('热搜雷达','内容创作','雷达','抓取微博与百度热搜，结合关键词评分，找到值得写的选题。'),
 'biz-fiction':('商业叙事写作','内容创作','故事','把真实商业人物与事件，组织成有场景、有细节的叙事长文。'),
@@ -19,7 +19,8 @@ meta={
 'wisdom-council':('智者议会','研究决策','议会','模拟七位思想家的思维视角，讨论商业选择与复杂问题。'),
 'ai-navigator-2026':('AI 航海家大会知识库','研究决策','知识','检索大会嘉宾分享、逐字稿和问答，引用原始观点与方法。'),
 'career-fit-coach':('岗位匹配教练','个人成长','职业','用 JD 和真实经历建立证据矩阵，判断岗位匹配与简历修改方向。'),
-'dating-chat-coach':('自然聊天教练','个人成长','沟通','结合个人语言习惯和聊天上下文，整理自然、尊重的回复建议。')}
+'dating-chat-coach':('自然聊天教练','个人成长','沟通','结合个人语言习惯和聊天上下文，整理自然、尊重的回复建议。'),
+'plan-date':('约会路线规划','个人成长','约会','规划初次见面、半日与雨天约会，并用固定模板制作水彩指南海报。')}
 order=list(meta); selected=sorted([r for r in repos if r['skills']],key=lambda r:order.index(r['name']) if r['name'] in order else 99)
 count=sum(len(r['skills']) for r in selected)
 for r in selected:
@@ -29,7 +30,7 @@ for r in selected:
  r['skillUrl']=r['url']+'/blob/'+r['branch']+'/'+r['skills'][0]
  # Only carry public catalog fields into the browser.
 data=[{k:r[k] for k in ['name','title','category','icon','summary','url','stars','licenseLabel','skillUrl','skills']} for r in selected]
-(root/'catalog.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
+(root/'catalog.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
 def card(r,i):
  e=html.escape
  return f'''<article class="skill-card" data-category="{e(r['category'])}" data-search="{e(r['title']+' '+r['name']+' '+r['summary'])}"><div class="card-top"><span class="skill-icon">{e(r['icon'])}</span><span class="card-number">{i+1:02d}</span></div><span class="eyebrow">{e(r['category'])}</span><h3>{e(r['title'])}</h3><p>{e(r['summary'])}</p><div class="repo-name">{e(r['name'])}</div><div class="card-foot"><span>{e(r['licenseLabel'])} · {len(r['skills'])} Skill{'s' if len(r['skills'])>1 else ''}</span><button data-detail="{e(r['name'])}" aria-label="查看{e(r['title'])}详情">了解 / 使用 <span>↗</span></button></div></article>'''
@@ -39,7 +40,8 @@ page='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name
 <header><a class="brand" href="#"><span class="brand-mark">LX<span>↗</span></span><span>林序聊AI<small>TECH · AI · BUSINESS</small></span></a><nav aria-label="主导航"><a href="#skills">开源 Skills</a><a href="#practice">实战与思考</a><a href="#start">开始使用</a></nav><a class="header-link" href="https://github.com/linxumoney" target="_blank" rel="noopener noreferrer">GitHub ↗</a></header>
 <main><section class="hero"><div class="hero-main"><div class="hero-kicker"><span></span> LIN XU / OPEN SOURCE LAB</div><h1>用技术理解商业，<br>用 <em>AI</em> 放大杠杆<span class="period">。</span></h1><p>把实践中沉淀的工具和方法开放出来。<br>找到你的场景，带走一个能用的 AI Skill。</p><div class="hero-actions"><a class="primary" href="#skills">探索开源技能 <span>↓</span></a><a class="text-link" href="https://www.youtube.com/@LinXuMoney" target="_blank" rel="noopener noreferrer">看我的实战分享 ↗</a></div><div class="hero-stats"><span><strong>__PROJECTS__</strong>公开技能项目</span><span><strong>__SKILLS__</strong>SKILL.md 文件</span><span><strong>05</strong>应用场景</span></div></div><aside class="hero-aside"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="profile-card"><div class="profile-top"><span>BUILD IN PUBLIC</span><span>↗</span></div><img src="assets/avatar.jpg" alt="林序聊AI频道头像" width="160" height="160"><h2>林序 <small>Lin Xu</small></h2><p>前大厂技术专家<br>8年技术与商业实战 · All in AI</p><div class="profile-tags"><span>技术</span><b>×</b><span>商业</span><b>×</b><span>实战</span></div></div><div class="aside-note"><span>01 / 从想法到工具</span><p>让 AI 进入真实工作。</p><div class="growth-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></aside></section>
 <div class="manifesto"><span>分享方法，也交付工具。</span><span>公开源码 / 场景驱动 / 持续打磨 <b>↗</b></span></div>
-<section id="skills" class="catalog section"><div class="section-heading"><div><span class="eyebrow">THE TOOLKIT / 开源技能库</span><h2>选一个场景，开始动手。</h2></div><span class="section-count">__PROJECTS__ 个项目 <span>↙</span></span></div><div class="catalog-controls"><div class="filters" role="group" aria-label="按场景筛选"><button class="filter active" data-filter="全部" aria-pressed="true">全部</button>__FILTERS__</div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索技能、场景…" aria-label="搜索技能"></label></div><div id="result-count" class="result-count" aria-live="polite">全部 __PROJECTS__ 个技能项目</div><div class="card-grid">__CARDS__</div><div id="empty" hidden class="empty">没有找到匹配的技能。换个关键词，或<a href="#skills" id="reset-search">查看全部</a>。</div><p class="catalog-note">目录依据 GitHub 公开仓库整理 · 数据核对：2026.10.07 · 使用与分发条件以各仓库许可证为准。</p></section>
+<section class="featured-plan" aria-labelledby="featured-plan-title"><div class="featured-plan-copy"><span class="eyebrow">NEW PROJECT / 真实地点示例</span><h2 id="featured-plan-title">一场约会，从一条真实街道开始。</h2><p>五道营胡同、武康路、新天地：三张水彩指南海报，店铺与地址附公开来源。营业、价格与预约请在出发前复核。</p><a class="primary" href="https://github.com/linxumoney/plan-date#示例图" target="_blank" rel="noopener noreferrer">查看三张示例图 <span>↗</span></a><small>插画为场景示意，不作导航地图使用。</small></div><a class="featured-plan-image" href="https://github.com/linxumoney/plan-date#示例图" target="_blank" rel="noopener noreferrer" aria-label="查看五道营胡同约会海报与更多示例"><img src="assets/plan-date-preview.webp" alt="五道营胡同真实地点约会指南海报预览" width="560" height="800" loading="lazy"></a></section>
+<section id="skills" class="catalog section"><div class="section-heading"><div><span class="eyebrow">THE TOOLKIT / 开源技能库</span><h2>选一个场景，开始动手。</h2></div><span class="section-count">__PROJECTS__ 个项目 <span>↙</span></span></div><div class="catalog-controls"><div class="filters" role="group" aria-label="按场景筛选"><button class="filter active" data-filter="全部" aria-pressed="true">全部</button>__FILTERS__</div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索技能、场景…" aria-label="搜索技能"></label></div><div id="result-count" class="result-count" aria-live="polite">全部 __PROJECTS__ 个技能项目</div><div class="card-grid">__CARDS__</div><div id="empty" hidden class="empty">没有找到匹配的技能。换个关键词，或<a href="#skills" id="reset-search">查看全部</a>。</div><p class="catalog-note">目录依据 GitHub 公开仓库整理 · 数据核对：2026.10.13 · 使用与分发条件以各仓库许可证为准。</p></section>
 <section id="practice" class="practice section"><div class="section-heading"><div><span class="eyebrow">IN PRACTICE / 实战与思考</span><h2>工具之外，也聊它怎么用。</h2></div><a class="text-link" href="https://www.youtube.com/@LinXuMoney" target="_blank" rel="noopener noreferrer">前往 YouTube 频道 ↗</a></div><div class="video-grid">
 <a class="video-card" href="https://www.youtube.com/watch?v=vWxoqGWcXZI" target="_blank" rel="noopener noreferrer"><div class="video-art"><span>AGENT / 工作流</span><strong>把自己<br>装进文件夹。</strong><span class="play">▶</span></div><h3>我如何用 Claude 把自己装进文件夹</h3><p>个人知识、方法与 Agent 工作流</p></a>
 <a class="video-card" href="https://www.youtube.com/watch?v=hojynYkUbvI" target="_blank" rel="noopener noreferrer"><div class="video-art art-two"><span>RESEARCH / 实战</span><strong>做一个<br>自动化投研 Agent。</strong><span class="play">▶</span></div><h3>Web3 / 美股全自动化投研 Agent</h3><p>从研究任务到可运行的工作流</p></a>
@@ -49,5 +51,5 @@ page='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name
 </main><footer><div class="brand"><span class="brand-mark">LX<span>↗</span></span><span>林序聊AI<small>用技术理解商业，用 AI 放大杠杆。</small></span></div><div><a href="https://github.com/linxumoney">GitHub ↗</a><a href="https://www.youtube.com/@LinXuMoney">YouTube ↗</a><a href="https://x.com/linxumoney">X ↗</a><a href="mailto:linxu.money@gmail.com">邮箱 ↗</a></div><p>© 2026 林序聊AI · 个人与非商业使用可以 · 商业授权：linxu.money@gmail.com</p></footer>
 <dialog id="detail"><button class="close" aria-label="关闭详情">×</button><div id="detail-content"></div></dialog></body></html>'''
 page=page.replace('__PROJECTS__',str(len(selected))).replace('__SKILLS__',str(count)).replace('__FILTERS__',filters).replace('__CARDS__',''.join(card(r,i) for i,r in enumerate(selected)))
-(root/'index.html').write_text(page)
+(root/'index.html').write_text(page,encoding='utf-8')
 print(f'Built {len(selected)} projects / {count} skills')

@@ -263,5 +263,19 @@
     "skills": [
       "skills/dating-chat-coach/SKILL.md"
     ]
+  },
+  {
+    "name": "plan-date",
+    "title": "约会路线规划",
+    "category": "个人成长",
+    "icon": "约会",
+    "summary": "规划初次见面、半日与雨天约会，并用固定模板制作水彩指南海报。",
+    "url": "https://github.com/linxumoney/plan-date",
+    "stars": 0,
+    "licenseLabel": "PolyForm Noncommercial",
+    "skillUrl": "https://github.com/linxumoney/plan-date/blob/main/SKILL.md",
+    "skills": [
+      "SKILL.md"
+    ]
   }
 ]
